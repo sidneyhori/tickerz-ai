@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tickerz AI
+
+A Next.js application with MongoDB, Redis, and NextAuth.js integration.
+
+## Tech Stack
+
+- Next.js 14 with App Router
+- TypeScript
+- MongoDB with Mongoose
+- Redis for caching
+- NextAuth.js for authentication
+- TailwindCSS for styling
+- Railway for deployment
+
+## Prerequisites
+
+- Node.js 18+ and npm
+- MongoDB instance
+- Redis instance
+- GitHub OAuth credentials (optional)
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd tickerz-ai
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
+Then edit `.env.local` with your configuration values.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `MONGODB_URI`: Your MongoDB connection string
+- `REDIS_URL`: Your Redis connection string
+- `NEXTAUTH_URL`: Your application URL (http://localhost:3000 for development)
+- `NEXTAUTH_SECRET`: A random string for session encryption
+- `GITHUB_ID`: GitHub OAuth App ID (optional)
+- `GITHUB_SECRET`: GitHub OAuth App Secret (optional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+This project is configured for deployment on Railway. To deploy:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Create a new project on Railway
+2. Connect your GitHub repository
+3. Add the required environment variables
+4. Deploy!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+- User authentication with email/password and GitHub
+- MongoDB integration for data persistence
+- Redis for caching and job processing
+- Modern UI with TailwindCSS
+- Type-safe development with TypeScript
+
+## Development
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript compiler check
