@@ -1,37 +1,46 @@
-import mongoose from 'mongoose';
+import { Schema, model, models } from 'mongoose';
+import { User as UserType, UserSettings } from '../types/models';
 
-const userSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, 'Please provide a name'],
+const userSettingsSchema = new Schema<UserSettings>({
+  rssFeeds: {
+    enabled: { type: Boolean, default: true },
+    refreshInterval: { type: Number, default: 15 },
+    maxItems: { type: Number, default: 10 },
+    sources: [{ type: String }],
   },
-  email: {
-    type: String,
-    required: [true, 'Please provide an email'],
-    unique: true,
-    lowercase: true,
+  stockTickers: {
+    enabled: { type: Boolean, default: true },
+    refreshInterval: { type: Number, default: 5 },
+    symbols: [{ type: String }],
+    displayMode: { type: String, enum: ['compact', 'detailed'], default: 'compact' },
   },
-  password: {
-    type: String,
-    required: [true, 'Please provide a password'],
-    minlength: 8,
+  calendars: {
+    enabled: { type: Boolean, default: true },
+    refreshInterval: { type: Number, default: 15 },
+    sources: [{ type: String }],
+    displayMode: { type: String, enum: ['list', 'grid'], default: 'list' },
   },
-  image: {
-    type: String,
+  weather: {
+    enabled: { type: Boolean, default: true },
+    refreshInterval: { type: Number, default: 30 },
+    location: { type: String, default: '' },
+    units: { type: String, enum: ['metric', 'imperial'], default: 'metric' },
   },
-  createdAt: {
-    type: Date,
-    default: Date.now,
+  display: {
+    theme: { type: String, enum: ['light', 'dark', 'system'], default: 'system' },
+    layout: { type: String, enum: ['grid', 'list'], default: 'grid' },
+    fontSize: { type: String, enum: ['small', 'medium', 'large'], default: 'medium' },
   },
 });
 
-// Only hash the password if it's new or modified
-userSchema.pre('save', async function(next) {
-  if (!this.isModified('password')) return next();
-  
-  const bcrypt = (await import('bcryptjs')).default;
-  this.password = await bcrypt.hash(this.password, 12);
-  next();
+const userSchema = new Schema<UserType>({
+  name: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  emailVerified: { type: Date },
+  image: { type: String },
+  settings: { type: userSettingsSchema, default: () => ({}) },
+}, {
+  timestamps: true,
 });
 
-export const User = mongoose.models.User || mongoose.model('User', userSchema); 
+export const User = models.User || model<UserType>('User', userSchema); 
