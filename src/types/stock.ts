@@ -47,11 +47,11 @@ export interface StockServiceOptions {
   cacheDuration?: number; // in minutes
 }
 
+export type TimeRange = '1d' | '5d' | '1mo' | '3mo' | '6mo' | '1y' | '2y' | '5y' | '10y';
+
 export interface StockFilterOptions {
   symbols: string[];
   interval?: '1min' | '5min' | '15min' | '30min' | '60min';
-  timeRange?: '1d' | '5d' | '1mo' | '3mo' | '6mo' | '1y' | '2y' | '5y' | '10y';
+  timeRange?: TimeRange;
   includeMetrics?: boolean;
-}
-
-export type TimeRange = '1d' | '5d' | '1mo' | '3mo' | '6mo' | '1y' | '2y' | '5y' | '10y' | 'ytd' | 'max'; 
+} 

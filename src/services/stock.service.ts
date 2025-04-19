@@ -28,6 +28,8 @@ export class StockService {
     });
     url.searchParams.append('apikey', this.options.apiKey);
 
+    console.log('Making API request to:', url.toString().replace(this.options.apiKey, 'REDACTED'));
+
     try {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.options.timeout);
@@ -39,16 +41,20 @@ export class StockService {
       clearTimeout(timeoutId);
 
       if (!response.ok) {
+        console.error('API request failed:', response.status, response.statusText);
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const data = await response.json();
+      console.log('API response:', JSON.stringify(data, null, 2));
       
       if (data['Error Message']) {
+        console.error('API returned error:', data['Error Message']);
         throw new Error(data['Error Message']);
       }
 
       if (data['Note']) {
+        console.error('API rate limit reached:', data['Note']);
         const error = new Error('API rate limit reached') as StockServiceError;
         error.code = 'RATE_LIMIT';
         error.details = data['Note'];
@@ -57,10 +63,11 @@ export class StockService {
 
       return data as T;
     } catch (error) {
+      console.error('API request failed:', error);
       if (error instanceof Error) {
         const stockError = new Error(error.message) as StockServiceError;
         stockError.code = 'NETWORK_ERROR';
-        stockError.details = { url: url.toString(), error };
+        stockError.details = { url: url.toString().replace(this.options.apiKey, 'REDACTED'), error };
         throw stockError;
       }
       throw error;
@@ -114,13 +121,41 @@ export class StockService {
   }
 
   public async getHistoricalData(symbol: string, interval: string = 'daily'): Promise<StockHistoricalData> {
-    const data = await this.cachedFetch<any>('TIME_SERIES_DAILY_ADJUSTED', {
-      function: 'TIME_SERIES_DAILY_ADJUSTED',
-      symbol,
-      outputsize: 'compact'
-    });
+    const functionMap: Record<string, string> = {
+      'daily': 'TIME_SERIES_DAILY',
+      '1min': 'TIME_SERIES_INTRADAY',
+      '5min': 'TIME_SERIES_INTRADAY',
+      '15min': 'TIME_SERIES_INTRADAY',
+      '30min': 'TIME_SERIES_INTRADAY',
+      '60min': 'TIME_SERIES_INTRADAY'
+    };
 
-    const timeSeries = data['Time Series (Daily)'];
+    const intervalMap: Record<string, string> = {
+      '1min': '1min',
+      '5min': '5min',
+      '15min': '15min',
+      '30min': '30min',
+      '60min': '60min'
+    };
+
+    const apiFunction = functionMap[interval] || 'TIME_SERIES_DAILY';
+    const params: Record<string, string> = {
+      function: apiFunction,
+      symbol,
+      outputsize: 'full'
+    };
+
+    if (interval !== 'daily') {
+      params.interval = intervalMap[interval] || '1min';
+    }
+
+    const data = await this.cachedFetch<any>(apiFunction, params);
+
+    const timeSeriesKey = interval === 'daily' 
+      ? 'Time Series (Daily)'
+      : `Time Series (${intervalMap[interval] || '1min'})`;
+
+    const timeSeries = data[timeSeriesKey];
     const historicalData: StockHistoricalData = {
       symbol,
       data: []
@@ -134,8 +169,8 @@ export class StockService {
           high: parseFloat(values['2. high']),
           low: parseFloat(values['3. low']),
           close: parseFloat(values['4. close']),
-          volume: parseInt(values['6. volume']),
-          adjustedClose: parseFloat(values['5. adjusted close'])
+          volume: parseInt(values['5. volume']),
+          adjustedClose: parseFloat(values['4. close']) // Using close price as adjusted close since it's not available in free API
         });
       });
     }
