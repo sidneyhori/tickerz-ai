@@ -9,6 +9,8 @@ import { promisify } from 'util';
 import { Redis } from 'ioredis';
 import mongoose from 'mongoose';
 import { OpenAIService } from '@/services/openai.service';
+import winston from 'winston';
+import path from 'path';
 
 const queueManager = QueueManager.getInstance();
 const parseXml = promisify(parseString);
@@ -18,12 +20,28 @@ const redis = new Redis({
   password: process.env.REDIS_PASSWORD,
 });
 
+// Winston logger setup
+const logDir = path.join(process.cwd(), 'logs');
+// @ts-ignore: If you see a type error for winston, run: npm install --save-dev @types/winston
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.printf((info) => {
+      return `${info.timestamp} [${info.level.toUpperCase()}] ${info.message}`;
+    })
+  ),
+  transports: [
+    new winston.transports.File({ filename: path.join(logDir, 'worker-trace.log'), maxsize: 10485760, maxFiles: 5 })
+  ]
+});
+
 // RSS Fetch Worker
 const fetchQueue = queueManager.getQueue(QUEUE_NAMES.RSS_FETCH);
 fetchQueue.process(JOB_TYPES.FETCH_FEED, async (job: Job) => {
   const { feedId, feedUrl } = job.data;
   try {
-    console.log(`Processing fetch job for feed ${feedId} (${feedUrl})`);
+    logger.info(`Processing fetch job for feed ${feedId} (${feedUrl})`);
     
     // Convert feedId to ObjectId
     const feedObjectId = new mongoose.Types.ObjectId(feedId);
@@ -31,11 +49,11 @@ fetchQueue.process(JOB_TYPES.FETCH_FEED, async (job: Job) => {
     // Check cache first
     const cachedContent = await redis.get(`feed:${feedId}`);
     if (cachedContent) {
-      console.log(`Using cached content for feed ${feedId}`);
+      logger.info(`Using cached content for feed ${feedId}`);
       return JSON.parse(cachedContent);
     }
 
-    console.log(`Fetching feed from ${feedUrl}`);
+    logger.info(`Fetching feed from ${feedUrl}`);
     const response = await axios.get(feedUrl);
     const feedContent = await parseXml(response.data);
     
@@ -50,14 +68,15 @@ fetchQueue.process(JOB_TYPES.FETCH_FEED, async (job: Job) => {
     await Feed.findByIdAndUpdate(feedObjectId, { lastFetched: new Date() });
 
     // Add to processing queue
+    logger.info('Adding feed to processing queue');
     await queueManager.addFeedProcessJob(feedId, feedContent);
     
-    console.log(`Successfully processed fetch job for feed ${feedId}`);
-    return feedContent;
+    logger.info(`Successfully processed fetch job for feed ${feedId}`);
+    return { feedId, content: feedContent };
   } catch (error) {
-    console.error(`Failed to fetch feed ${feedUrl}:`, error);
+    logger.error(`Failed to fetch feed ${feedUrl}:`, error);
     if (error instanceof Error) {
-      console.error('Error details:', {
+      logger.error('Error details:', {
         message: error.message,
         stack: error.stack,
         name: error.name
@@ -72,15 +91,26 @@ const processQueue = queueManager.getQueue(QUEUE_NAMES.RSS_PROCESS);
 processQueue.process(JOB_TYPES.PROCESS_FEED, async (job: Job) => {
   const { feedId, content } = job.data;
   try {
-    console.log(`Processing feed content for feed ${feedId}`);
+    logger.info(`Processing feed content for feed ${feedId}`);
+    logger.info('Feed content structure:', JSON.stringify(content, null, 2));
+    
+    if (!content?.rss?.channel?.[0]?.item) {
+      throw new Error('Invalid feed content structure');
+    }
     
     // Process each item in the feed
     const items = content.rss.channel[0].item;
-    console.log(`Found ${items.length} items to process`);
+    logger.info(`Found ${items.length} items to process`);
 
     for (const item of items) {
-      const guid = item.guid[0]._ || item.guid[0];
+      const guid = item.guid?.[0]?._ || item.guid?.[0] || item.link?.[0];
+      if (!guid) {
+        logger.warn('Item missing guid:', item);
+        continue;
+      }
+      
       const contentId = `${feedId}:${guid}`;
+      logger.info(`Processing item ${contentId}`);
       
       // Check if we already have this item in MongoDB
       const existingItem = await ContentItem.findOne({ 
@@ -89,37 +119,63 @@ processQueue.process(JOB_TYPES.PROCESS_FEED, async (job: Job) => {
       });
 
       if (!existingItem) {
-        console.log(`Creating new content item: ${contentId}`);
+        logger.info(`Creating new content item: ${contentId}`);
+        const title = item.title?.[0] || '';
+        const description = item.description?.[0] || '';
+        const imageUrl = item['media:content']?.[0]?.$?.url || 
+                        item['media:thumbnail']?.[0]?.$?.url || 
+                        item.enclosure?.[0]?.$?.url;
+        const publishedAt = item.pubDate?.[0] ? new Date(item.pubDate[0]) : new Date();
+        const author = item.author?.[0] || item['dc:creator']?.[0] || 'Unknown';
+        const url = item.link?.[0] || '';
+        
+        logger.info('Item metadata:', {
+          title,
+          description: description.substring(0, 100) + '...',
+          imageUrl,
+          publishedAt,
+          author,
+          url
+        });
+        
         // Store the item in MongoDB
-        await ContentItem.create({
+        const contentItem = await ContentItem.create({
           sourceType: 'rss',
           sourceId: contentId,
           rawData: item,
           metadata: {
-            title: item.title[0],
-            description: item.description?.[0],
-            imageUrl: item['media:content']?.[0]?.$?.url || item['media:thumbnail']?.[0]?.$?.url || item.enclosure?.[0]?.$?.url,
-            publishedAt: new Date(item.pubDate[0]),
-            author: item.author?.[0] || item['dc:creator']?.[0],
-            url: item.link[0]
+            title,
+            description,
+            imageUrl,
+            publishedAt,
+            author,
+            url,
+            sentiment: 'neutral'
           }
         });
+        
+        logger.info(`Created content item with ID: ${contentItem._id}`);
 
         // Add to summary queue
-        console.log(`Adding content ${contentId} to summary queue`);
-        await queueManager.addContentSummaryJob(
+        logger.info(`Adding content ${contentId} to summary queue`);
+        const summaryContent = `${title}\n\n${description}`;
+        logger.info(`Summary content length: ${summaryContent.length}`);
+        const summaryJob = await queueManager.addContentSummaryJob(
           contentId,
-          `${item.title[0]}\n\n${item.description?.[0] || ''}`
+          summaryContent
         );
+        logger.info(`Summary job added with ID: ${summaryJob.id}`);
+      } else {
+        logger.info(`Item ${contentId} already exists, skipping`);
       }
     }
     
-    console.log(`Successfully processed feed ${feedId}`);
-    return { processedItems: items.length };
+    logger.info(`Successfully processed all items for feed ${feedId}`);
+    return { processed: items.length };
   } catch (error) {
-    console.error(`Failed to process feed ${feedId}:`, error);
+    logger.error(`Failed to process feed ${feedId}:`, error);
     if (error instanceof Error) {
-      console.error('Error details:', {
+      logger.error('Error details:', {
         message: error.message,
         stack: error.stack,
         name: error.name
@@ -131,18 +187,48 @@ processQueue.process(JOB_TYPES.PROCESS_FEED, async (job: Job) => {
 
 // Content Summary Worker
 const summaryQueue = queueManager.getQueue(QUEUE_NAMES.RSS_SUMMARY);
+summaryQueue.on('active', (job) => {
+  logger.info(`Summary job ${job.id} has started processing`);
+});
+
+summaryQueue.on('completed', (job, result) => {
+  logger.info(`Summary job ${job.id} has completed with result:`, result);
+});
+
+summaryQueue.on('failed', (job, error) => {
+  logger.error(`Summary job ${job.id} has failed:`, error);
+});
+
+summaryQueue.on('error', (error) => {
+  logger.error('Summary queue error:', error);
+});
+
 summaryQueue.process(JOB_TYPES.SUMMARIZE_CONTENT, async (job: Job) => {
   const { contentId, content } = job.data;
   try {
-    console.log(`Processing summary for content ${contentId}`);
+    logger.info(`Processing summary for content ${contentId}`);
+    logger.info(`Content length: ${content.length}`);
+    logger.info(`Content: ${content.substring(0, 100)}...`);
     
     // Get OpenAI service instance
+    logger.info('Initializing OpenAI service...');
     const openaiService = OpenAIService.getInstance();
+    logger.info('OpenAI service initialized');
     
     // Generate summary using OpenAI
+    logger.info('Generating summary with OpenAI');
     const { summary, keyPoints, sentiment } = await openaiService.summarizeContent(content);
+    logger.info('OpenAI Response:', {
+      summary,
+      keyPoints,
+      sentiment,
+      contentLength: content.length,
+      summaryLength: summary.length,
+      keyPointsCount: keyPoints.length
+    });
 
     // Cache the summary
+    logger.info('Caching summary in Redis');
     await redis.setex(
       `summary:${contentId}`,
       CACHE_TTL.FEED_SUMMARY,
@@ -154,19 +240,35 @@ summaryQueue.process(JOB_TYPES.SUMMARIZE_CONTENT, async (job: Job) => {
         timestamp: new Date().toISOString()
       })
     );
+    logger.info('Summary cached in Redis');
 
     // Update the content item in MongoDB with the summary
-    await ContentItem.findOneAndUpdate(
+    logger.info('Updating content item in MongoDB');
+    logger.info('Searching for content item with sourceId:', contentId);
+    const result = await ContentItem.findOneAndUpdate(
       { sourceId: contentId },
       { 
         $set: {
           summary,
           'metadata.sentiment': sentiment
         }
-      }
+      },
+      { new: true } // Return the updated document
     );
+    logger.info('MongoDB Update Result:', {
+      success: !!result,
+      contentId,
+      summary: result?.summary,
+      sentiment: result?.metadata?.sentiment,
+      error: !result ? 'Failed to find content item' : null
+    });
 
-    console.log(`Successfully processed summary for content ${contentId}`);
+    if (!result) {
+      logger.error('Failed to find content item with sourceId:', contentId);
+      throw new Error(`Content item not found: ${contentId}`);
+    }
+
+    logger.info(`Successfully processed summary for content ${contentId}`);
     return {
       contentId,
       summary,
@@ -174,9 +276,9 @@ summaryQueue.process(JOB_TYPES.SUMMARIZE_CONTENT, async (job: Job) => {
       sentiment
     };
   } catch (error) {
-    console.error(`Failed to summarize content ${contentId}:`, error);
+    logger.error(`Failed to summarize content ${contentId}:`, error);
     if (error instanceof Error) {
-      console.error('Error details:', {
+      logger.error('Error details:', {
         message: error.message,
         stack: error.stack,
         name: error.name
@@ -189,9 +291,9 @@ summaryQueue.process(JOB_TYPES.SUMMARIZE_CONTENT, async (job: Job) => {
 // Error handling for all queues
 [fetchQueue, processQueue, summaryQueue].forEach(queue => {
   queue.on('failed', (job: Job, error: Error) => {
-    console.error(`Job ${job.id} failed in queue ${queue.name}:`, error);
+    logger.error(`Job ${job.id} failed in queue ${queue.name}:`, error);
     if (error instanceof Error) {
-      console.error('Error details:', {
+      logger.error('Error details:', {
         message: error.message,
         stack: error.stack,
         name: error.name

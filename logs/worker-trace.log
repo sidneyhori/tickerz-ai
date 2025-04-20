@@ -1,0 +1,773 @@
+2025-04-20T13:13:27.922Z [INFO] Processing feed content for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T13:13:27.924Z [INFO] Feed content structure:
+2025-04-20T13:13:27.924Z [INFO] Found 20 items to process
+2025-04-20T13:13:27.924Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:13:28.023Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:13:28.023Z [INFO] Item metadata:
+2025-04-20T13:13:28.261Z [INFO] Created content item with ID: 6804f2f850b02e1c661d46fe
+2025-04-20T13:13:28.262Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281 to summary queue
+2025-04-20T13:13:28.262Z [INFO] Summary content length: 430
+2025-04-20T13:13:28.265Z [INFO] Summary job added with ID: 1
+2025-04-20T13:13:28.265Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:13:28.267Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:13:28.267Z [INFO] Content length: 430
+2025-04-20T13:13:28.267Z [INFO] Content: Congress has questions about 23andMe bankruptcy
+
+Leaders of the House Committee on Energy and Commer...
+2025-04-20T13:13:28.267Z [INFO] Initializing OpenAI service...
+2025-04-20T13:13:28.267Z [INFO] OpenAI service initialized
+2025-04-20T13:13:28.267Z [INFO] Generating summary with OpenAI
+2025-04-20T13:13:28.268Z [INFO] Summary job 1 has started processing
+2025-04-20T13:13:28.437Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:13:28.437Z [INFO] Item metadata:
+2025-04-20T13:13:28.614Z [INFO] Created content item with ID: 6804f2f850b02e1c661d4701
+2025-04-20T13:13:28.614Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274 to summary queue
+2025-04-20T13:13:28.614Z [INFO] Summary content length: 402
+2025-04-20T13:13:28.614Z [INFO] Summary job added with ID: 2
+2025-04-20T13:13:28.614Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:13:28.799Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:13:28.799Z [INFO] Item metadata:
+2025-04-20T13:13:28.919Z [INFO] Created content item with ID: 6804f2f850b02e1c661d4704
+2025-04-20T13:13:28.919Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981 to summary queue
+2025-04-20T13:13:28.920Z [INFO] Summary content length: 378
+2025-04-20T13:13:28.924Z [INFO] Summary job added with ID: 3
+2025-04-20T13:13:28.924Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:13:29.091Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:13:29.091Z [INFO] Item metadata:
+2025-04-20T13:13:29.218Z [INFO] Created content item with ID: 6804f2f950b02e1c661d4707
+2025-04-20T13:13:29.218Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211 to summary queue
+2025-04-20T13:13:29.218Z [INFO] Summary content length: 421
+2025-04-20T13:13:29.219Z [INFO] Summary job added with ID: 4
+2025-04-20T13:13:29.219Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:13:29.348Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:13:29.348Z [INFO] Item metadata:
+2025-04-20T13:13:29.473Z [INFO] Created content item with ID: 6804f2f950b02e1c661d470a
+2025-04-20T13:13:29.473Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543 to summary queue
+2025-04-20T13:13:29.473Z [INFO] Summary content length: 454
+2025-04-20T13:13:29.476Z [INFO] Summary job added with ID: 5
+2025-04-20T13:13:29.476Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:13:29.583Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:13:29.583Z [INFO] Item metadata:
+2025-04-20T13:13:29.707Z [INFO] Created content item with ID: 6804f2f950b02e1c661d470d
+2025-04-20T13:13:29.707Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662 to summary queue
+2025-04-20T13:13:29.707Z [INFO] Summary content length: 157
+2025-04-20T13:13:29.708Z [INFO] Summary job added with ID: 6
+2025-04-20T13:13:29.708Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:13:29.745Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:13:29.745Z [INFO] Item metadata:
+2025-04-20T13:13:29.879Z [INFO] Created content item with ID: 6804f2f950b02e1c661d4710
+2025-04-20T13:13:29.879Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033 to summary queue
+2025-04-20T13:13:29.879Z [INFO] Summary content length: 424
+2025-04-20T13:13:29.881Z [INFO] Summary job added with ID: 7
+2025-04-20T13:13:29.882Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:13:29.927Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:13:29.927Z [INFO] Item metadata:
+2025-04-20T13:13:29.968Z [INFO] Created content item with ID: 6804f2f950b02e1c661d4713
+2025-04-20T13:13:29.968Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173 to summary queue
+2025-04-20T13:13:29.968Z [INFO] Summary content length: 451
+2025-04-20T13:13:29.968Z [INFO] Summary job added with ID: 8
+2025-04-20T13:13:29.968Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:13:30.006Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:13:30.006Z [INFO] Item metadata:
+2025-04-20T13:13:30.045Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4716
+2025-04-20T13:13:30.045Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658 to summary queue
+2025-04-20T13:13:30.045Z [INFO] Summary content length: 421
+2025-04-20T13:13:30.046Z [INFO] Summary job added with ID: 9
+2025-04-20T13:13:30.046Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:13:30.083Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:13:30.083Z [INFO] Item metadata:
+2025-04-20T13:13:30.124Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4719
+2025-04-20T13:13:30.124Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630 to summary queue
+2025-04-20T13:13:30.124Z [INFO] Summary content length: 412
+2025-04-20T13:13:30.124Z [INFO] Summary job added with ID: 10
+2025-04-20T13:13:30.124Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:13:30.161Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:13:30.161Z [INFO] Item metadata:
+2025-04-20T13:13:30.202Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d471c
+2025-04-20T13:13:30.202Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032 to summary queue
+2025-04-20T13:13:30.202Z [INFO] Summary content length: 419
+2025-04-20T13:13:30.204Z [INFO] Summary job added with ID: 11
+2025-04-20T13:13:30.204Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:13:30.241Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:13:30.241Z [INFO] Item metadata:
+2025-04-20T13:13:30.282Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d471f
+2025-04-20T13:13:30.282Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038 to summary queue
+2025-04-20T13:13:30.282Z [INFO] Summary content length: 447
+2025-04-20T13:13:30.283Z [INFO] Summary job added with ID: 12
+2025-04-20T13:13:30.283Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:13:30.319Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:13:30.319Z [INFO] Item metadata:
+2025-04-20T13:13:30.357Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4722
+2025-04-20T13:13:30.357Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037 to summary queue
+2025-04-20T13:13:30.357Z [INFO] Summary content length: 453
+2025-04-20T13:13:30.357Z [INFO] Summary job added with ID: 13
+2025-04-20T13:13:30.357Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:13:30.396Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:13:30.396Z [INFO] Item metadata:
+2025-04-20T13:13:30.438Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4725
+2025-04-20T13:13:30.438Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785 to summary queue
+2025-04-20T13:13:30.438Z [INFO] Summary content length: 451
+2025-04-20T13:13:30.438Z [INFO] Summary job added with ID: 14
+2025-04-20T13:13:30.439Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:13:30.477Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:13:30.477Z [INFO] Item metadata:
+2025-04-20T13:13:30.517Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4728
+2025-04-20T13:13:30.517Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342 to summary queue
+2025-04-20T13:13:30.517Z [INFO] Summary content length: 498
+2025-04-20T13:13:30.517Z [INFO] Summary job added with ID: 15
+2025-04-20T13:13:30.517Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:13:30.552Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:13:30.553Z [INFO] Item metadata:
+2025-04-20T13:13:30.593Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d472b
+2025-04-20T13:13:30.593Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433 to summary queue
+2025-04-20T13:13:30.593Z [INFO] Summary content length: 379
+2025-04-20T13:13:30.594Z [INFO] Summary job added with ID: 16
+2025-04-20T13:13:30.594Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:13:30.630Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:13:30.630Z [INFO] Item metadata:
+2025-04-20T13:13:30.671Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d472e
+2025-04-20T13:13:30.671Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897 to summary queue
+2025-04-20T13:13:30.671Z [INFO] Summary content length: 417
+2025-04-20T13:13:30.671Z [INFO] Summary job added with ID: 17
+2025-04-20T13:13:30.671Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:13:30.710Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:13:30.710Z [INFO] Item metadata:
+2025-04-20T13:13:30.729Z [INFO] OpenAI Response:
+2025-04-20T13:13:30.729Z [INFO] Caching summary in Redis
+2025-04-20T13:13:30.730Z [INFO] Summary cached in Redis
+2025-04-20T13:13:30.730Z [INFO] Updating content item in MongoDB
+2025-04-20T13:13:30.730Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:13:30.750Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4731
+2025-04-20T13:13:30.750Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889 to summary queue
+2025-04-20T13:13:30.750Z [INFO] Summary content length: 455
+2025-04-20T13:13:30.750Z [INFO] Summary job added with ID: 18
+2025-04-20T13:13:30.751Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:13:30.772Z [INFO] MongoDB Update Result:
+2025-04-20T13:13:30.772Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:13:30.773Z [INFO] Summary job 1 has completed with result:
+2025-04-20T13:13:30.773Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:13:30.773Z [INFO] Content length: 421
+2025-04-20T13:13:30.773Z [INFO] Content: OpenAI’s new reasoning AI models hallucinate more
+
+OpenAI&#8217;s recently launched o3 and o4-mini A...
+2025-04-20T13:13:30.773Z [INFO] Initializing OpenAI service...
+2025-04-20T13:13:30.773Z [INFO] OpenAI service initialized
+2025-04-20T13:13:30.773Z [INFO] Generating summary with OpenAI
+2025-04-20T13:13:30.773Z [INFO] Summary job 9 has started processing
+2025-04-20T13:13:30.788Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:13:30.788Z [INFO] Item metadata:
+2025-04-20T13:13:30.829Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4735
+2025-04-20T13:13:30.829Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877 to summary queue
+2025-04-20T13:13:30.829Z [INFO] Summary content length: 163
+2025-04-20T13:13:30.829Z [INFO] Summary job added with ID: 19
+2025-04-20T13:13:30.829Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:13:30.868Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:13:30.868Z [INFO] Item metadata:
+2025-04-20T13:13:30.906Z [INFO] Created content item with ID: 6804f2fa50b02e1c661d4738
+2025-04-20T13:13:30.907Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862 to summary queue
+2025-04-20T13:13:30.907Z [INFO] Summary content length: 424
+2025-04-20T13:13:30.907Z [INFO] Summary job added with ID: 20
+2025-04-20T13:13:30.907Z [INFO] Successfully processed all items for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T13:13:32.372Z [INFO] OpenAI Response:
+2025-04-20T13:13:32.372Z [INFO] Caching summary in Redis
+2025-04-20T13:13:32.372Z [INFO] Summary cached in Redis
+2025-04-20T13:13:32.372Z [INFO] Updating content item in MongoDB
+2025-04-20T13:13:32.372Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:13:32.412Z [INFO] MongoDB Update Result:
+2025-04-20T13:13:32.412Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:13:32.412Z [INFO] Summary job 9 has completed with result:
+2025-04-20T13:13:32.413Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:13:32.413Z [INFO] Content length: 455
+2025-04-20T13:13:32.413Z [INFO] Content: ChatGPT will now use its ‘memory’ to personalize web searches
+
+OpenAI is upgrading ChatGPT&#8217;s &...
+2025-04-20T13:13:32.413Z [INFO] Initializing OpenAI service...
+2025-04-20T13:13:32.413Z [INFO] OpenAI service initialized
+2025-04-20T13:13:32.413Z [INFO] Generating summary with OpenAI
+2025-04-20T13:13:32.413Z [INFO] Summary job 18 has started processing
+2025-04-20T13:13:34.274Z [INFO] OpenAI Response:
+2025-04-20T13:13:34.274Z [INFO] Caching summary in Redis
+2025-04-20T13:13:34.275Z [INFO] Summary cached in Redis
+2025-04-20T13:13:34.275Z [INFO] Updating content item in MongoDB
+2025-04-20T13:13:34.275Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:13:34.316Z [INFO] MongoDB Update Result:
+2025-04-20T13:13:34.316Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:13:34.317Z [INFO] Summary job 18 has completed with result:
+2025-04-20T13:19:24.815Z [INFO] Processing fetch job for feed 68043ec31f8d03a8d5b9d5e0 (https://techcrunch.com/feed/)
+2025-04-20T13:19:24.815Z [INFO] Fetching feed from https://techcrunch.com/feed/
+2025-04-20T13:19:25.094Z [INFO] Adding feed to processing queue
+2025-04-20T13:19:25.095Z [INFO] Successfully processed fetch job for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T13:19:25.095Z [INFO] Processing feed content for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T13:19:25.096Z [INFO] Feed content structure:
+2025-04-20T13:19:25.096Z [INFO] Found 20 items to process
+2025-04-20T13:19:25.096Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:19:25.134Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:19:25.134Z [INFO] Item metadata:
+2025-04-20T13:19:25.176Z [INFO] Created content item with ID: 6804f45d50b02e1c661d473e
+2025-04-20T13:19:25.176Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281 to summary queue
+2025-04-20T13:19:25.176Z [INFO] Summary content length: 430
+2025-04-20T13:19:25.177Z [INFO] Summary job added with ID: 1
+2025-04-20T13:19:25.177Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:19:25.178Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:19:25.178Z [INFO] Content length: 430
+2025-04-20T13:19:25.178Z [INFO] Content: Congress has questions about 23andMe bankruptcy
+
+Leaders of the House Committee on Energy and Commer...
+2025-04-20T13:19:25.178Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:25.178Z [INFO] OpenAI service initialized
+2025-04-20T13:19:25.178Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:25.178Z [INFO] Summary job 1 has started processing
+2025-04-20T13:19:25.214Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:19:25.214Z [INFO] Item metadata:
+2025-04-20T13:19:25.254Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4741
+2025-04-20T13:19:25.254Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274 to summary queue
+2025-04-20T13:19:25.254Z [INFO] Summary content length: 402
+2025-04-20T13:19:25.255Z [INFO] Summary job added with ID: 2
+2025-04-20T13:19:25.255Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:19:25.256Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:19:25.257Z [INFO] Content length: 402
+2025-04-20T13:19:25.257Z [INFO] Content: Robots run a half marathon, slowly
+
+It looks like humanoid robots have a long way to go before catch...
+2025-04-20T13:19:25.257Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:25.257Z [INFO] OpenAI service initialized
+2025-04-20T13:19:25.257Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:25.258Z [INFO] Summary job 2 has started processing
+2025-04-20T13:19:25.292Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:19:25.292Z [INFO] Item metadata:
+2025-04-20T13:19:25.331Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4744
+2025-04-20T13:19:25.331Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981 to summary queue
+2025-04-20T13:19:25.331Z [INFO] Summary content length: 378
+2025-04-20T13:19:25.331Z [INFO] Summary job added with ID: 3
+2025-04-20T13:19:25.331Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:19:25.369Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:19:25.369Z [INFO] Item metadata:
+2025-04-20T13:19:25.412Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4747
+2025-04-20T13:19:25.412Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211 to summary queue
+2025-04-20T13:19:25.412Z [INFO] Summary content length: 421
+2025-04-20T13:19:25.413Z [INFO] Summary job added with ID: 4
+2025-04-20T13:19:25.413Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:19:25.452Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:19:25.452Z [INFO] Item metadata:
+2025-04-20T13:19:25.498Z [INFO] Created content item with ID: 6804f45d50b02e1c661d474a
+2025-04-20T13:19:25.498Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543 to summary queue
+2025-04-20T13:19:25.498Z [INFO] Summary content length: 454
+2025-04-20T13:19:25.499Z [INFO] Summary job added with ID: 5
+2025-04-20T13:19:25.499Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:19:25.537Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:19:25.537Z [INFO] Item metadata:
+2025-04-20T13:19:25.579Z [INFO] Created content item with ID: 6804f45d50b02e1c661d474d
+2025-04-20T13:19:25.579Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662 to summary queue
+2025-04-20T13:19:25.580Z [INFO] Summary content length: 157
+2025-04-20T13:19:25.581Z [INFO] Summary job added with ID: 6
+2025-04-20T13:19:25.581Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:19:25.620Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:19:25.620Z [INFO] Item metadata:
+2025-04-20T13:19:25.662Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4750
+2025-04-20T13:19:25.662Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033 to summary queue
+2025-04-20T13:19:25.662Z [INFO] Summary content length: 424
+2025-04-20T13:19:25.663Z [INFO] Summary job added with ID: 7
+2025-04-20T13:19:25.664Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:19:25.702Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:19:25.702Z [INFO] Item metadata:
+2025-04-20T13:19:25.742Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4753
+2025-04-20T13:19:25.743Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173 to summary queue
+2025-04-20T13:19:25.743Z [INFO] Summary content length: 451
+2025-04-20T13:19:25.743Z [INFO] Summary job added with ID: 8
+2025-04-20T13:19:25.743Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:19:25.784Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:19:25.784Z [INFO] Item metadata:
+2025-04-20T13:19:25.826Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4756
+2025-04-20T13:19:25.827Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658 to summary queue
+2025-04-20T13:19:25.827Z [INFO] Summary content length: 421
+2025-04-20T13:19:25.828Z [INFO] Summary job added with ID: 9
+2025-04-20T13:19:25.828Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:19:25.867Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:19:25.867Z [INFO] Item metadata:
+2025-04-20T13:19:25.910Z [INFO] Created content item with ID: 6804f45d50b02e1c661d4759
+2025-04-20T13:19:25.910Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630 to summary queue
+2025-04-20T13:19:25.910Z [INFO] Summary content length: 412
+2025-04-20T13:19:25.911Z [INFO] Summary job added with ID: 10
+2025-04-20T13:19:25.911Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:19:25.948Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:19:25.948Z [INFO] Item metadata:
+2025-04-20T13:19:25.988Z [INFO] Created content item with ID: 6804f45d50b02e1c661d475c
+2025-04-20T13:19:25.988Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032 to summary queue
+2025-04-20T13:19:25.988Z [INFO] Summary content length: 419
+2025-04-20T13:19:25.992Z [INFO] Summary job added with ID: 11
+2025-04-20T13:19:25.992Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:19:26.033Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:19:26.033Z [INFO] Item metadata:
+2025-04-20T13:19:26.078Z [INFO] Created content item with ID: 6804f45e50b02e1c661d475f
+2025-04-20T13:19:26.078Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038 to summary queue
+2025-04-20T13:19:26.078Z [INFO] Summary content length: 447
+2025-04-20T13:19:26.079Z [INFO] Summary job added with ID: 12
+2025-04-20T13:19:26.079Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:19:26.116Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:19:26.116Z [INFO] Item metadata:
+2025-04-20T13:19:26.163Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4762
+2025-04-20T13:19:26.163Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037 to summary queue
+2025-04-20T13:19:26.163Z [INFO] Summary content length: 453
+2025-04-20T13:19:26.164Z [INFO] Summary job added with ID: 13
+2025-04-20T13:19:26.164Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:19:26.201Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:19:26.201Z [INFO] Item metadata:
+2025-04-20T13:19:26.240Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4765
+2025-04-20T13:19:26.240Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785 to summary queue
+2025-04-20T13:19:26.240Z [INFO] Summary content length: 451
+2025-04-20T13:19:26.240Z [INFO] Summary job added with ID: 14
+2025-04-20T13:19:26.240Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:19:26.278Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:19:26.278Z [INFO] Item metadata:
+2025-04-20T13:19:26.317Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4768
+2025-04-20T13:19:26.317Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342 to summary queue
+2025-04-20T13:19:26.317Z [INFO] Summary content length: 498
+2025-04-20T13:19:26.318Z [INFO] Summary job added with ID: 15
+2025-04-20T13:19:26.318Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:19:26.355Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:19:26.355Z [INFO] Item metadata:
+2025-04-20T13:19:26.395Z [INFO] Created content item with ID: 6804f45e50b02e1c661d476b
+2025-04-20T13:19:26.395Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433 to summary queue
+2025-04-20T13:19:26.395Z [INFO] Summary content length: 379
+2025-04-20T13:19:26.396Z [INFO] Summary job added with ID: 16
+2025-04-20T13:19:26.396Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:19:26.434Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:19:26.434Z [INFO] Item metadata:
+2025-04-20T13:19:26.478Z [INFO] Created content item with ID: 6804f45e50b02e1c661d476e
+2025-04-20T13:19:26.478Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897 to summary queue
+2025-04-20T13:19:26.478Z [INFO] Summary content length: 417
+2025-04-20T13:19:26.479Z [INFO] Summary job added with ID: 17
+2025-04-20T13:19:26.479Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:19:26.518Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:19:26.518Z [INFO] Item metadata:
+2025-04-20T13:19:26.559Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4771
+2025-04-20T13:19:26.559Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889 to summary queue
+2025-04-20T13:19:26.559Z [INFO] Summary content length: 455
+2025-04-20T13:19:26.560Z [INFO] Summary job added with ID: 18
+2025-04-20T13:19:26.560Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:19:26.598Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:19:26.599Z [INFO] Item metadata:
+2025-04-20T13:19:26.643Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4774
+2025-04-20T13:19:26.643Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877 to summary queue
+2025-04-20T13:19:26.643Z [INFO] Summary content length: 163
+2025-04-20T13:19:26.644Z [INFO] Summary job added with ID: 19
+2025-04-20T13:19:26.644Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:19:26.685Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:19:26.685Z [INFO] Item metadata:
+2025-04-20T13:19:26.727Z [INFO] Created content item with ID: 6804f45e50b02e1c661d4777
+2025-04-20T13:19:26.727Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862 to summary queue
+2025-04-20T13:19:26.727Z [INFO] Summary content length: 424
+2025-04-20T13:19:26.728Z [INFO] Summary job added with ID: 20
+2025-04-20T13:19:26.728Z [INFO] Successfully processed all items for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T13:19:27.144Z [INFO] OpenAI Response:
+2025-04-20T13:19:27.144Z [INFO] Caching summary in Redis
+2025-04-20T13:19:27.144Z [INFO] Summary cached in Redis
+2025-04-20T13:19:27.144Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:27.145Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:27.185Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:27.185Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T13:19:27.185Z [INFO] Summary job 1 has completed with result:
+2025-04-20T13:19:27.185Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:19:27.186Z [INFO] Content length: 378
+2025-04-20T13:19:27.186Z [INFO] Content: Week in Review: Google loses a major antitrust case
+
+Welcome back to Week in Review! We&#8217;ve got...
+2025-04-20T13:19:27.186Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:27.186Z [INFO] OpenAI service initialized
+2025-04-20T13:19:27.186Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:27.186Z [INFO] Summary job 3 has started processing
+2025-04-20T13:19:28.022Z [INFO] OpenAI Response:
+2025-04-20T13:19:28.022Z [INFO] Caching summary in Redis
+2025-04-20T13:19:28.023Z [INFO] Summary cached in Redis
+2025-04-20T13:19:28.023Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:28.023Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:28.074Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:28.074Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T13:19:28.075Z [INFO] Summary job 2 has completed with result:
+2025-04-20T13:19:28.076Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:19:28.076Z [INFO] Content length: 421
+2025-04-20T13:19:28.076Z [INFO] Content: Famed AI researcher launches controversial startup to replace all human workers everywhere
+
+Every no...
+2025-04-20T13:19:28.076Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:28.076Z [INFO] OpenAI service initialized
+2025-04-20T13:19:28.076Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:28.076Z [INFO] Summary job 4 has started processing
+2025-04-20T13:19:29.190Z [INFO] OpenAI Response:
+2025-04-20T13:19:29.190Z [INFO] Caching summary in Redis
+2025-04-20T13:19:29.190Z [INFO] Summary cached in Redis
+2025-04-20T13:19:29.190Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:29.190Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:29.230Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:29.230Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T13:19:29.231Z [INFO] Summary job 3 has completed with result:
+2025-04-20T13:19:29.232Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:19:29.232Z [INFO] Content length: 454
+2025-04-20T13:19:29.232Z [INFO] Content: Read what Mark Zuckerberg and Facebook execs said about Instagram before buying it
+
+The first week o...
+2025-04-20T13:19:29.232Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:29.232Z [INFO] OpenAI service initialized
+2025-04-20T13:19:29.232Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:29.232Z [INFO] Summary job 5 has started processing
+2025-04-20T13:19:30.295Z [INFO] OpenAI Response:
+2025-04-20T13:19:30.295Z [INFO] Caching summary in Redis
+2025-04-20T13:19:30.296Z [INFO] Summary cached in Redis
+2025-04-20T13:19:30.296Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:30.296Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:30.338Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:30.338Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T13:19:30.339Z [INFO] Summary job 4 has completed with result:
+2025-04-20T13:19:30.339Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:19:30.339Z [INFO] Content length: 157
+2025-04-20T13:19:30.339Z [INFO] Content: A comprehensive list of 2025 tech layoffs
+
+A complete list of all the known layoffs in tech, from Bi...
+2025-04-20T13:19:30.339Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:30.339Z [INFO] OpenAI service initialized
+2025-04-20T13:19:30.339Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:30.339Z [INFO] Summary job 6 has started processing
+2025-04-20T13:19:30.895Z [INFO] OpenAI Response:
+2025-04-20T13:19:30.895Z [INFO] Caching summary in Redis
+2025-04-20T13:19:30.895Z [INFO] Summary cached in Redis
+2025-04-20T13:19:30.895Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:30.895Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:30.935Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:30.935Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T13:19:30.936Z [INFO] Summary job 5 has completed with result:
+2025-04-20T13:19:30.936Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:19:30.936Z [INFO] Content length: 424
+2025-04-20T13:19:30.936Z [INFO] Content: A new kids’ show will come with a crypto wallet when it debuts this fall
+
+A new animated kids’ serie...
+2025-04-20T13:19:30.936Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:30.936Z [INFO] OpenAI service initialized
+2025-04-20T13:19:30.936Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:30.937Z [INFO] Summary job 7 has started processing
+2025-04-20T13:19:31.733Z [INFO] OpenAI Response:
+2025-04-20T13:19:31.733Z [INFO] Caching summary in Redis
+2025-04-20T13:19:31.734Z [INFO] Summary cached in Redis
+2025-04-20T13:19:31.734Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:31.734Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:31.775Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:31.775Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T13:19:31.776Z [INFO] Summary job 6 has completed with result:
+2025-04-20T13:19:31.776Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:19:31.776Z [INFO] Content length: 451
+2025-04-20T13:19:31.776Z [INFO] Content: Techstars increases startup funding to $220,000, mirroring YC structure
+
+Techstars, a nearly 20-year...
+2025-04-20T13:19:31.776Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:31.776Z [INFO] OpenAI service initialized
+2025-04-20T13:19:31.776Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:31.776Z [INFO] Summary job 8 has started processing
+2025-04-20T13:19:32.638Z [INFO] OpenAI Response:
+2025-04-20T13:19:32.638Z [INFO] Caching summary in Redis
+2025-04-20T13:19:32.640Z [INFO] Summary cached in Redis
+2025-04-20T13:19:32.640Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:32.640Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:32.681Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:32.681Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T13:19:32.685Z [INFO] Summary job 7 has completed with result:
+2025-04-20T13:19:32.685Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:19:32.685Z [INFO] Content length: 421
+2025-04-20T13:19:32.685Z [INFO] Content: OpenAI’s new reasoning AI models hallucinate more
+
+OpenAI&#8217;s recently launched o3 and o4-mini A...
+2025-04-20T13:19:32.685Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:32.685Z [INFO] OpenAI service initialized
+2025-04-20T13:19:32.685Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:32.685Z [INFO] Summary job 9 has started processing
+2025-04-20T13:19:33.637Z [INFO] OpenAI Response:
+2025-04-20T13:19:33.638Z [INFO] Caching summary in Redis
+2025-04-20T13:19:33.638Z [INFO] Summary cached in Redis
+2025-04-20T13:19:33.638Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:33.638Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:33.678Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:33.678Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T13:19:33.684Z [INFO] Summary job 8 has completed with result:
+2025-04-20T13:19:33.685Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:19:33.685Z [INFO] Content length: 412
+2025-04-20T13:19:33.685Z [INFO] Content: ChatGPT: Everything you need to know about the AI-powered chatbot
+
+ChatGPT, OpenAI’s text-generating...
+2025-04-20T13:19:33.685Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:33.685Z [INFO] OpenAI service initialized
+2025-04-20T13:19:33.685Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:33.685Z [INFO] Summary job 10 has started processing
+2025-04-20T13:19:34.563Z [INFO] OpenAI Response:
+2025-04-20T13:19:34.563Z [INFO] Caching summary in Redis
+2025-04-20T13:19:34.563Z [INFO] Summary cached in Redis
+2025-04-20T13:19:34.563Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:34.563Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:34.606Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:34.607Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T13:19:34.607Z [INFO] Summary job 9 has completed with result:
+2025-04-20T13:19:34.608Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:19:34.608Z [INFO] Content length: 419
+2025-04-20T13:19:34.608Z [INFO] Content: Bluesky may soon add blue check verification
+
+Bluesky may soon get a new blue checkmark verification...
+2025-04-20T13:19:34.608Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:34.608Z [INFO] OpenAI service initialized
+2025-04-20T13:19:34.608Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:34.608Z [INFO] Summary job 11 has started processing
+2025-04-20T13:19:36.587Z [INFO] OpenAI Response:
+2025-04-20T13:19:36.587Z [INFO] Caching summary in Redis
+2025-04-20T13:19:36.587Z [INFO] Summary cached in Redis
+2025-04-20T13:19:36.587Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:36.587Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:36.761Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:36.761Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T13:19:36.763Z [INFO] Summary job 11 has completed with result:
+2025-04-20T13:19:36.764Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:19:36.764Z [INFO] Content length: 447
+2025-04-20T13:19:36.764Z [INFO] Content: TechCrunch Mobility: Lyft buys its way into Europe, Kodiak SPACs, and how China’s new ADAS rules mig...
+2025-04-20T13:19:36.764Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:36.764Z [INFO] OpenAI service initialized
+2025-04-20T13:19:36.764Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:36.764Z [INFO] Summary job 12 has started processing
+2025-04-20T13:19:36.977Z [INFO] OpenAI Response:
+2025-04-20T13:19:36.978Z [INFO] Caching summary in Redis
+2025-04-20T13:19:36.978Z [INFO] Summary cached in Redis
+2025-04-20T13:19:36.978Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:36.978Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:37.146Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:37.146Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T13:19:37.148Z [INFO] Summary job 10 has completed with result:
+2025-04-20T13:19:37.148Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:19:37.148Z [INFO] Content length: 453
+2025-04-20T13:19:37.148Z [INFO] Content: White House replaces covid.gov website with ‘lab leak’ theory
+
+The government-run website covid.gov ...
+2025-04-20T13:19:37.148Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:37.148Z [INFO] OpenAI service initialized
+2025-04-20T13:19:37.148Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:37.148Z [INFO] Summary job 13 has started processing
+2025-04-20T13:19:38.636Z [INFO] OpenAI Response:
+2025-04-20T13:19:38.636Z [INFO] Caching summary in Redis
+2025-04-20T13:19:38.636Z [INFO] Summary cached in Redis
+2025-04-20T13:19:38.636Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:38.636Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:38.680Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:38.680Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T13:19:38.686Z [INFO] Summary job 12 has completed with result:
+2025-04-20T13:19:38.686Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:19:38.686Z [INFO] Content length: 451
+2025-04-20T13:19:38.686Z [INFO] Content: ChatGPT is referring to users by their names unprompted, and some find it ‘creepy’
+
+Some ChatGPT use...
+2025-04-20T13:19:38.686Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:38.686Z [INFO] OpenAI service initialized
+2025-04-20T13:19:38.686Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:38.686Z [INFO] Summary job 14 has started processing
+2025-04-20T13:19:39.197Z [INFO] OpenAI Response:
+2025-04-20T13:19:39.197Z [INFO] Caching summary in Redis
+2025-04-20T13:19:39.198Z [INFO] Summary cached in Redis
+2025-04-20T13:19:39.198Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:39.198Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:39.238Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:39.238Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T13:19:39.239Z [INFO] Summary job 13 has completed with result:
+2025-04-20T13:19:39.239Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:19:39.239Z [INFO] Content length: 498
+2025-04-20T13:19:39.239Z [INFO] Content: From Bogotá to the Battlefield: LatAm startups are winning big in TechCrunch Startup Battlefield
+
+Fo...
+2025-04-20T13:19:39.239Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:39.239Z [INFO] OpenAI service initialized
+2025-04-20T13:19:39.239Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:39.239Z [INFO] Summary job 15 has started processing
+2025-04-20T13:19:40.746Z [INFO] OpenAI Response:
+2025-04-20T13:19:40.746Z [INFO] Caching summary in Redis
+2025-04-20T13:19:40.746Z [INFO] Summary cached in Redis
+2025-04-20T13:19:40.746Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:40.746Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:40.791Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:40.791Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T13:19:40.792Z [INFO] Summary job 14 has completed with result:
+2025-04-20T13:19:40.792Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:19:40.792Z [INFO] Content length: 379
+2025-04-20T13:19:40.792Z [INFO] Content: Startups Weekly: Mixed messages from venture capital
+
+Welcome to Startups Weekly — your weekly recap...
+2025-04-20T13:19:40.792Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:40.792Z [INFO] OpenAI service initialized
+2025-04-20T13:19:40.792Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:40.792Z [INFO] Summary job 16 has started processing
+2025-04-20T13:19:41.429Z [INFO] OpenAI Response:
+2025-04-20T13:19:41.429Z [INFO] Caching summary in Redis
+2025-04-20T13:19:41.430Z [INFO] Summary cached in Redis
+2025-04-20T13:19:41.430Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:41.430Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:41.471Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:41.471Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T13:19:41.473Z [INFO] Summary job 15 has completed with result:
+2025-04-20T13:19:41.473Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:19:41.473Z [INFO] Content length: 417
+2025-04-20T13:19:41.473Z [INFO] Content: TikToker sues Roblox over her Charli XCX ‘Apple’ dance
+
+TikTok content creator Kelley Heyer sued the...
+2025-04-20T13:19:41.473Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:41.473Z [INFO] OpenAI service initialized
+2025-04-20T13:19:41.473Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:41.473Z [INFO] Summary job 17 has started processing
+2025-04-20T13:19:43.647Z [INFO] OpenAI Response:
+2025-04-20T13:19:43.648Z [INFO] Caching summary in Redis
+2025-04-20T13:19:43.648Z [INFO] Summary cached in Redis
+2025-04-20T13:19:43.648Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:43.648Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:43.692Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:43.692Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T13:19:43.692Z [INFO] Summary job 17 has completed with result:
+2025-04-20T13:19:43.692Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:19:43.692Z [INFO] Content length: 455
+2025-04-20T13:19:43.692Z [INFO] Content: ChatGPT will now use its ‘memory’ to personalize web searches
+
+OpenAI is upgrading ChatGPT&#8217;s &...
+2025-04-20T13:19:43.692Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:43.692Z [INFO] OpenAI service initialized
+2025-04-20T13:19:43.692Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:43.692Z [INFO] Summary job 18 has started processing
+2025-04-20T13:19:44.026Z [INFO] OpenAI Response:
+2025-04-20T13:19:44.026Z [INFO] Caching summary in Redis
+2025-04-20T13:19:44.026Z [INFO] Summary cached in Redis
+2025-04-20T13:19:44.026Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:44.026Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:44.068Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:44.068Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T13:19:44.070Z [INFO] Summary job 16 has completed with result:
+2025-04-20T13:19:44.071Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:19:44.071Z [INFO] Content length: 163
+2025-04-20T13:19:44.071Z [INFO] Content: Trump EPA targets two-man geoengineering startup for ‘polluting the air’
+
+The company sells “cooling...
+2025-04-20T13:19:44.071Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:44.071Z [INFO] OpenAI service initialized
+2025-04-20T13:19:44.071Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:44.071Z [INFO] Summary job 19 has started processing
+2025-04-20T13:19:46.013Z [INFO] OpenAI Response:
+2025-04-20T13:19:46.013Z [INFO] Caching summary in Redis
+2025-04-20T13:19:46.014Z [INFO] Summary cached in Redis
+2025-04-20T13:19:46.014Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:46.014Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:46.057Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:46.057Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T13:19:46.058Z [INFO] Summary job 18 has completed with result:
+2025-04-20T13:19:46.059Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:19:46.059Z [INFO] Content length: 424
+2025-04-20T13:19:46.059Z [INFO] Content: The Nintendo Switch 2 will still cost $450 in the US, despite tariffs
+
+Nintendo announced on Friday ...
+2025-04-20T13:19:46.059Z [INFO] Initializing OpenAI service...
+2025-04-20T13:19:46.059Z [INFO] OpenAI service initialized
+2025-04-20T13:19:46.059Z [INFO] Generating summary with OpenAI
+2025-04-20T13:19:46.059Z [INFO] Summary job 20 has started processing
+2025-04-20T13:19:46.196Z [INFO] OpenAI Response:
+2025-04-20T13:19:46.196Z [INFO] Caching summary in Redis
+2025-04-20T13:19:46.196Z [INFO] Summary cached in Redis
+2025-04-20T13:19:46.196Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:46.196Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:46.235Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:46.235Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995877
+2025-04-20T13:19:46.236Z [INFO] Summary job 19 has completed with result:
+2025-04-20T13:19:47.765Z [INFO] OpenAI Response:
+2025-04-20T13:19:47.765Z [INFO] Caching summary in Redis
+2025-04-20T13:19:47.766Z [INFO] Summary cached in Redis
+2025-04-20T13:19:47.766Z [INFO] Updating content item in MongoDB
+2025-04-20T13:19:47.766Z [INFO] Searching for content item with sourceId:
+2025-04-20T13:19:47.808Z [INFO] MongoDB Update Result:
+2025-04-20T13:19:47.808Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995862
+2025-04-20T13:19:47.809Z [INFO] Summary job 20 has completed with result:
+2025-04-20T18:38:01.354Z [INFO] Processing fetch job for feed 68043ec31f8d03a8d5b9d5e0 (https://techcrunch.com/feed/)
+2025-04-20T18:38:01.354Z [INFO] Fetching feed from https://techcrunch.com/feed/
+2025-04-20T18:38:02.549Z [INFO] Adding feed to processing queue
+2025-04-20T18:38:02.550Z [INFO] Successfully processed fetch job for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T18:38:02.553Z [INFO] Processing feed content for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T18:38:02.554Z [INFO] Feed content structure:
+2025-04-20T18:38:02.554Z [INFO] Found 20 items to process
+2025-04-20T18:38:02.554Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297
+2025-04-20T18:38:02.836Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297
+2025-04-20T18:38:02.836Z [INFO] Item metadata:
+2025-04-20T18:38:02.891Z [INFO] Created content item with ID: 68053f0a012619297408e1b1
+2025-04-20T18:38:02.891Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297 to summary queue
+2025-04-20T18:38:02.891Z [INFO] Summary content length: 356
+2025-04-20T18:38:02.893Z [INFO] Summary job added with ID: 21
+2025-04-20T18:38:02.893Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995733
+2025-04-20T18:38:02.893Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297
+2025-04-20T18:38:02.893Z [INFO] Content length: 356
+2025-04-20T18:38:02.893Z [INFO] Content: Your politeness could be costly for OpenAI
+
+“I wonder how much money OpenAI has lost in electricity ...
+2025-04-20T18:38:02.893Z [INFO] Initializing OpenAI service...
+2025-04-20T18:38:02.893Z [INFO] OpenAI service initialized
+2025-04-20T18:38:02.893Z [INFO] Generating summary with OpenAI
+2025-04-20T18:38:02.894Z [INFO] Summary job 21 has started processing
+2025-04-20T18:38:02.930Z [INFO] Creating new content item: 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995733
+2025-04-20T18:38:02.930Z [INFO] Item metadata:
+2025-04-20T18:38:02.975Z [INFO] Created content item with ID: 68053f0a012619297408e1b4
+2025-04-20T18:38:02.975Z [INFO] Adding content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995733 to summary queue
+2025-04-20T18:38:02.975Z [INFO] Summary content length: 471
+2025-04-20T18:38:02.976Z [INFO] Summary job added with ID: 22
+2025-04-20T18:38:02.977Z [INFO] Processing summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995733
+2025-04-20T18:38:02.976Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281
+2025-04-20T18:38:02.977Z [INFO] Content length: 471
+2025-04-20T18:38:02.977Z [INFO] Content: Uncovered emails showed how Meta struggled to keep Facebook culturally relevant
+
+With the first week...
+2025-04-20T18:38:02.977Z [INFO] Initializing OpenAI service...
+2025-04-20T18:38:02.977Z [INFO] OpenAI service initialized
+2025-04-20T18:38:02.977Z [INFO] Generating summary with OpenAI
+2025-04-20T18:38:02.977Z [INFO] Summary job 22 has started processing
+2025-04-20T18:38:03.017Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996281 already exists, skipping
+2025-04-20T18:38:03.017Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274
+2025-04-20T18:38:03.065Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996274 already exists, skipping
+2025-04-20T18:38:03.065Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981
+2025-04-20T18:38:03.105Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995981 already exists, skipping
+2025-04-20T18:38:03.105Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211
+2025-04-20T18:38:03.143Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996211 already exists, skipping
+2025-04-20T18:38:03.143Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543
+2025-04-20T18:38:03.183Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995543 already exists, skipping
+2025-04-20T18:38:03.183Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662
+2025-04-20T18:38:03.220Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607662 already exists, skipping
+2025-04-20T18:38:03.220Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033
+2025-04-20T18:38:03.261Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996033 already exists, skipping
+2025-04-20T18:38:03.261Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173
+2025-04-20T18:38:03.301Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996173 already exists, skipping
+2025-04-20T18:38:03.301Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658
+2025-04-20T18:38:03.340Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995658 already exists, skipping
+2025-04-20T18:38:03.340Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630
+2025-04-20T18:38:03.385Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2607630 already exists, skipping
+2025-04-20T18:38:03.385Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032
+2025-04-20T18:38:03.425Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996032 already exists, skipping
+2025-04-20T18:38:03.425Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038
+2025-04-20T18:38:03.464Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996038 already exists, skipping
+2025-04-20T18:38:03.464Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037
+2025-04-20T18:38:03.504Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996037 already exists, skipping
+2025-04-20T18:38:03.504Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785
+2025-04-20T18:38:03.546Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995785 already exists, skipping
+2025-04-20T18:38:03.546Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342
+2025-04-20T18:38:03.582Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995342 already exists, skipping
+2025-04-20T18:38:03.582Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433
+2025-04-20T18:38:03.620Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995433 already exists, skipping
+2025-04-20T18:38:03.620Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897
+2025-04-20T18:38:03.667Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995897 already exists, skipping
+2025-04-20T18:38:03.667Z [INFO] Processing item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889
+2025-04-20T18:38:03.707Z [INFO] Item 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995889 already exists, skipping
+2025-04-20T18:38:03.707Z [INFO] Successfully processed all items for feed 68043ec31f8d03a8d5b9d5e0
+2025-04-20T18:38:05.450Z [INFO] OpenAI Response:
+2025-04-20T18:38:05.450Z [INFO] Caching summary in Redis
+2025-04-20T18:38:05.451Z [INFO] Summary cached in Redis
+2025-04-20T18:38:05.451Z [INFO] Updating content item in MongoDB
+2025-04-20T18:38:05.451Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:38:05.492Z [INFO] MongoDB Update Result:
+2025-04-20T18:38:05.492Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2995733
+2025-04-20T18:38:05.493Z [INFO] Summary job 22 has completed with result:
+2025-04-20T18:38:05.965Z [INFO] OpenAI Response:
+2025-04-20T18:38:05.965Z [INFO] Caching summary in Redis
+2025-04-20T18:38:05.965Z [INFO] Summary cached in Redis
+2025-04-20T18:38:05.965Z [INFO] Updating content item in MongoDB
+2025-04-20T18:38:05.965Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:38:06.009Z [INFO] MongoDB Update Result:
+2025-04-20T18:38:06.009Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297
+2025-04-20T18:38:06.010Z [INFO] Summary job 21 has completed with result:

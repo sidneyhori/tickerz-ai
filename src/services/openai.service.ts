@@ -7,17 +7,22 @@ if (!process.env.OPENAI_API_KEY) {
   throw new Error('OPENAI_API_KEY environment variable is not set');
 }
 
+console.log('Initializing OpenAI client...');
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
+console.log('OpenAI client initialized');
 
 export class OpenAIService {
   private static instance: OpenAIService;
 
-  private constructor() {}
+  private constructor() {
+    console.log('Creating new OpenAIService instance');
+  }
 
   public static getInstance(): OpenAIService {
     if (!OpenAIService.instance) {
+      console.log('Creating new OpenAIService singleton instance');
       OpenAIService.instance = new OpenAIService();
     }
     return OpenAIService.instance;
@@ -29,12 +34,14 @@ export class OpenAIService {
     sentiment: 'positive' | 'negative' | 'neutral';
   }> {
     try {
+      console.log('Sending request to OpenAI API...');
+      console.log('Content length:', content.length);
       const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo",
+        model: "gpt-4o-mini",
         messages: [
           {
             role: "system",
-            content: "You are a helpful assistant that summarizes content. Provide a concise summary, 3-5 key points, and the overall sentiment (positive, negative, or neutral)."
+            content: `You are a helpful assistant that summarizes content. Return a concise summary (not just the word 'Summary:'), 3-5 key points, and the overall sentiment (positive, negative, or neutral). Return the response in JSON format with the following structure: { summary: string, keyPoints: string[], sentiment: 'positive' | 'negative' | 'neutral' }. The summary must be a real, meaningful summary of the content.`
           },
           {
             role: "user",
@@ -43,36 +50,41 @@ export class OpenAIService {
         ],
         temperature: 0.7,
         max_tokens: 500,
+        response_format: { type: "json_object" }
       });
+      console.log('Received response from OpenAI API');
 
       const response = completion.choices[0].message.content;
       if (!response) {
         throw new Error('No response from OpenAI');
       }
 
-      // Parse the response to extract summary, key points, and sentiment
-      const lines = response.split('\n');
-      const summary = lines[0];
-      const keyPoints = lines
-        .slice(1)
-        .filter(line => line.trim().startsWith('-'))
-        .map(line => line.trim().substring(1).trim());
-      
-      const sentimentLine = lines.find(line => 
-        line.toLowerCase().includes('sentiment:') || 
-        line.toLowerCase().includes('overall sentiment:')
-      );
-      
-      const sentiment = sentimentLine 
-        ? (sentimentLine.toLowerCase().includes('positive') ? 'positive' :
-           sentimentLine.toLowerCase().includes('negative') ? 'negative' : 'neutral')
-        : 'neutral';
+      console.log('OpenAI Response:', response);
 
-      return {
-        summary,
-        keyPoints,
-        sentiment
-      };
+      try {
+        const parsedResponse = JSON.parse(response);
+        // Check for valid, non-placeholder summary
+        if (!parsedResponse.summary || parsedResponse.summary.trim().toLowerCase() === 'summary:') {
+          console.error('OpenAI returned an empty or placeholder summary:', parsedResponse.summary);
+          throw new Error('OpenAI returned an empty or placeholder summary');
+        }
+        console.log('Successfully parsed OpenAI response:', {
+          summary: parsedResponse.summary,
+          keyPoints: parsedResponse.keyPoints,
+          sentiment: parsedResponse.sentiment,
+          summaryLength: parsedResponse.summary.length,
+          keyPointsCount: parsedResponse.keyPoints.length
+        });
+
+        return {
+          summary: parsedResponse.summary,
+          keyPoints: parsedResponse.keyPoints,
+          sentiment: parsedResponse.sentiment
+        };
+      } catch (parseError) {
+        console.error('Error parsing OpenAI response:', parseError);
+        throw new Error('Failed to parse OpenAI response as JSON');
+      }
     } catch (error) {
       console.error('Error in OpenAI summarization:', error);
       throw error;
