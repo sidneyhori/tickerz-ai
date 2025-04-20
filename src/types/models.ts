@@ -65,6 +65,7 @@ export interface ContentItem {
     publishedAt: Date;
     author?: string;
     url?: string;
+    sentiment?: 'positive' | 'negative' | 'neutral';
   };
   displayCount: number;
   lastShownAt?: Date;

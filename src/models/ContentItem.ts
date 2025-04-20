@@ -25,6 +25,11 @@ const contentItemSchema = new Schema<ContentItemType>({
     publishedAt: { type: Date, required: true },
     author: String,
     url: String,
+    sentiment: {
+      type: String,
+      enum: ['positive', 'negative', 'neutral'],
+      default: 'neutral'
+    }
   },
   displayCount: {
     type: Number,
@@ -41,5 +46,6 @@ const contentItemSchema = new Schema<ContentItemType>({
 contentItemSchema.index({ sourceType: 1, sourceId: 1 });
 contentItemSchema.index({ 'metadata.publishedAt': -1 });
 contentItemSchema.index({ lastShownAt: 1 });
+contentItemSchema.index({ 'metadata.sentiment': 1 });
 
 export const ContentItem = models.ContentItem || model<ContentItemType>('ContentItem', contentItemSchema); 

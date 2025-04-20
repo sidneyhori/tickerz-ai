@@ -1,29 +1,12 @@
 # Tickerz AI
 
-A Next.js application with MongoDB, Redis, and NextAuth.js integration.
-
-## Tech Stack
-
-- Next.js 14 with App Router
-- TypeScript
-- MongoDB with Mongoose
-- Redis for caching
-- NextAuth.js for authentication
-- TailwindCSS for styling
-- Railway for deployment
-
-## Prerequisites
-
-- Node.js 18+ and npm
-- MongoDB instance
-- Redis instance
-- GitHub OAuth credentials (optional)
+A real-time news and stock market analysis platform powered by AI.
 
 ## Getting Started
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yourusername/tickerz-ai.git
 cd tickerz-ai
 ```
 
@@ -38,43 +21,64 @@ cp .env.example .env.local
 ```
 Then edit `.env.local` with your configuration values.
 
-4. Run the development server:
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## Environment Variables
 
+The following environment variables are required in `.env.local`:
+
 - `MONGODB_URI`: Your MongoDB connection string
-- `REDIS_URL`: Your Redis connection string
-- `NEXTAUTH_URL`: Your application URL (http://localhost:3000 for development)
-- `NEXTAUTH_SECRET`: A random string for session encryption
-- `GITHUB_ID`: GitHub OAuth App ID (optional)
-- `GITHUB_SECRET`: GitHub OAuth App Secret (optional)
+- `REDIS_HOST`: Redis host (default: localhost)
+- `REDIS_PORT`: Redis port (default: 6379)
+- `REDIS_PASSWORD`: Redis password
+- `NEXTAUTH_URL`: NextAuth.js URL (default: http://localhost:3000)
+- `NEXTAUTH_SECRET`: NextAuth.js secret
+- `OPENAI_API_KEY`: Your OpenAI API key
+- `ALPHA_VANTAGE_API_KEY`: Your Alpha Vantage API key
 
-## Deployment
+Optional OAuth provider variables:
+- `GITHUB_ID`: GitHub OAuth client ID
+- `GITHUB_SECRET`: GitHub OAuth client secret
+- `GOOGLE_ID`: Google OAuth client ID
+- `GOOGLE_SECRET`: Google OAuth client secret
 
-This project is configured for deployment on Railway. To deploy:
+## Scripts
 
-1. Create a new project on Railway
-2. Connect your GitHub repository
-3. Add the required environment variables
-4. Deploy!
+- `npm run dev`: Start the development server
+- `npm run build`: Build the application
+- `npm run start`: Start the production server
+- `npm run start:workers`: Start the RSS feed processing workers
+- `npm run test`: Run tests
+- `npm run lint`: Run ESLint
+- `npm run format`: Format code with Prettier
 
 ## Features
 
-- User authentication with email/password and GitHub
-- MongoDB integration for data persistence
-- Redis for caching and job processing
-- Modern UI with TailwindCSS
-- Type-safe development with TypeScript
+- Real-time stock market data
+- AI-powered news analysis
+- RSS feed aggregation
+- Content summarization
+- Sentiment analysis
+- User authentication
+- Customizable news feeds
 
-## Development
+## Architecture
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run type-check` - Run TypeScript compiler check
+- Next.js for the frontend and API routes
+- MongoDB for data storage
+- Redis for caching and job queues
+- Bull for job processing
+- OpenAI for content analysis
+- Alpha Vantage for stock market data
+- NextAuth.js for authentication
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
