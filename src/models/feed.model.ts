@@ -43,4 +43,7 @@ const feedSchema = new mongoose.Schema({
 // Add TTL index for feed content
 feedSchema.index({ lastFetched: 1 }, { expireAfterSeconds: 24 * 60 * 60 }); // 24 hours
 
-export const Feed = mongoose.model<IFeed>('Feed', feedSchema); 
+// Prevent model overwrite
+const Feed = mongoose.models.Feed || mongoose.model<IFeed>('Feed', feedSchema);
+
+export { Feed }; 

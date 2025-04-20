@@ -16,9 +16,9 @@ async function createFeed() {
 
     // Create a new feed
     const feed = await Feed.create({
-      url: 'https://lexfridman.com/feed/podcast/',
-      title: 'Lex Fridman Podcast',
-      description: 'Lex Fridman Podcast RSS Feed',
+      url: 'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',
+      title: 'NYT Technology',
+      description: 'NYT Technology RSS Feed',
       fetchInterval: 60, // 1 hour
       isActive: true,
       userId: 'system', // or your user ID

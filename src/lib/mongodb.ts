@@ -6,30 +6,45 @@ if (!MONGODB_URI) {
   throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
 }
 
-let cached = global as any;
-cached.mongoose = cached.mongoose || { conn: null, promise: null };
+interface MongooseCache {
+  conn: typeof mongoose | null;
+  promise: Promise<typeof mongoose> | null;
+}
 
-export async function connectMongoDB() {
-  if (cached.mongoose.conn) {
-    return cached.mongoose.conn;
+declare global {
+  var mongoose: MongooseCache;
+}
+
+// Initialize the cache
+if (!global.mongoose) {
+  global.mongoose = { conn: null, promise: null };
+}
+
+const cached = global.mongoose;
+
+async function connectMongoDB() {
+  if (cached.conn) {
+    return cached.conn;
   }
 
-  if (!cached.mongoose.promise) {
+  if (!cached.promise) {
     const opts = {
       bufferCommands: false,
     };
 
-    cached.mongoose.promise = mongoose.connect(MONGODB_URI!, opts).then((mongoose) => {
+    cached.promise = mongoose.connect(MONGODB_URI!, opts).then((mongoose) => {
       return mongoose;
     });
   }
 
   try {
-    cached.mongoose.conn = await cached.mongoose.promise;
+    cached.conn = await cached.promise;
   } catch (e) {
-    cached.mongoose.promise = null;
+    cached.promise = null;
     throw e;
   }
 
-  return cached.mongoose.conn;
-} 
+  return cached.conn;
+}
+
+export { connectMongoDB }; 

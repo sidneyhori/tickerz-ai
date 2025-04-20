@@ -10,8 +10,8 @@ async function addFeedJob() {
     
     // Add a job to process the TechCrunch feed
     const job = await queueManager.addFeedFetchJob(
-      '68043ec31f8d03a8d5b9d5e0',
-      'https://techcrunch.com/feed/'
+      '68054223df62b90069f467f7',
+      'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml'
     );
     
     console.log('Added feed job:', job.id);

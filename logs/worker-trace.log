@@ -771,3 +771,587 @@ With the first week...
 2025-04-20T18:38:06.009Z [INFO] MongoDB Update Result:
 2025-04-20T18:38:06.009Z [INFO] Successfully processed summary for content 68043ec31f8d03a8d5b9d5e0:https://techcrunch.com/?p=2996297
 2025-04-20T18:38:06.010Z [INFO] Summary job 21 has completed with result:
+2025-04-20T18:52:35.943Z [INFO] Processing fetch job for feed 68054223df62b90069f467f7 (https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml)
+2025-04-20T18:52:35.944Z [INFO] Fetching feed from https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+2025-04-20T18:52:37.146Z [INFO] Adding feed to processing queue
+2025-04-20T18:52:37.150Z [INFO] Successfully processed fetch job for feed 68054223df62b90069f467f7
+2025-04-20T18:52:37.157Z [INFO] Processing feed content for feed 68054223df62b90069f467f7
+2025-04-20T18:52:37.158Z [INFO] Feed content structure:
+2025-04-20T18:52:37.158Z [INFO] Found 24 items to process
+2025-04-20T18:52:37.158Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html
+2025-04-20T18:52:37.314Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html
+2025-04-20T18:52:37.314Z [INFO] Item metadata:
+2025-04-20T18:52:37.497Z [INFO] Created content item with ID: 6805427579f301d16f72c000
+2025-04-20T18:52:37.497Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html to summary queue
+2025-04-20T18:52:37.497Z [INFO] Summary content length: 226
+2025-04-20T18:52:37.498Z [INFO] Summary job added with ID: 23
+2025-04-20T18:52:37.498Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/google-antitrust-losses-history.html
+2025-04-20T18:52:37.500Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html
+2025-04-20T18:52:37.500Z [INFO] Content length: 226
+2025-04-20T18:52:37.500Z [INFO] Content: U.S. Chipmakers Fear They Are Ceding China’s A.I. Market to Huawei
+
+New restrictions on semiconducto...
+2025-04-20T18:52:37.500Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:37.500Z [INFO] OpenAI service initialized
+2025-04-20T18:52:37.500Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:37.501Z [INFO] Summary job 23 has started processing
+2025-04-20T18:52:37.667Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/google-antitrust-losses-history.html
+2025-04-20T18:52:37.667Z [INFO] Item metadata:
+2025-04-20T18:52:37.814Z [INFO] Created content item with ID: 6805427579f301d16f72c004
+2025-04-20T18:52:37.814Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/google-antitrust-losses-history.html to summary queue
+2025-04-20T18:52:37.814Z [INFO] Summary content length: 191
+2025-04-20T18:52:37.815Z [INFO] Summary job added with ID: 24
+2025-04-20T18:52:37.815Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/google-ad-tech-antitrust-ruling.html
+2025-04-20T18:52:37.922Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/google-ad-tech-antitrust-ruling.html
+2025-04-20T18:52:37.922Z [INFO] Item metadata:
+2025-04-20T18:52:38.157Z [INFO] Created content item with ID: 6805427579f301d16f72c007
+2025-04-20T18:52:38.157Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/google-ad-tech-antitrust-ruling.html to summary queue
+2025-04-20T18:52:38.157Z [INFO] Summary content length: 184
+2025-04-20T18:52:38.158Z [INFO] Summary job added with ID: 25
+2025-04-20T18:52:38.158Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/podcasts/meta-on-trial-is-ai-a-normal-technology-hatgpt.html
+2025-04-20T18:52:38.197Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/podcasts/meta-on-trial-is-ai-a-normal-technology-hatgpt.html
+2025-04-20T18:52:38.197Z [INFO] Item metadata:
+2025-04-20T18:52:38.371Z [INFO] Created content item with ID: 6805427679f301d16f72c00a
+2025-04-20T18:52:38.371Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/podcasts/meta-on-trial-is-ai-a-normal-technology-hatgpt.html to summary queue
+2025-04-20T18:52:38.371Z [INFO] Summary content length: 174
+2025-04-20T18:52:38.373Z [INFO] Summary job added with ID: 26
+2025-04-20T18:52:38.373Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/20/arts/television/black-mirror-netflix-reality.html
+2025-04-20T18:52:38.513Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/20/arts/television/black-mirror-netflix-reality.html
+2025-04-20T18:52:38.513Z [INFO] Item metadata:
+2025-04-20T18:52:38.703Z [INFO] Created content item with ID: 6805427679f301d16f72c00d
+2025-04-20T18:52:38.704Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/20/arts/television/black-mirror-netflix-reality.html to summary queue
+2025-04-20T18:52:38.704Z [INFO] Summary content length: 189
+2025-04-20T18:52:38.704Z [INFO] Summary job added with ID: 27
+2025-04-20T18:52:38.704Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/19/business/michael-c-wood-dead.html
+2025-04-20T18:52:38.840Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/19/business/michael-c-wood-dead.html
+2025-04-20T18:52:38.840Z [INFO] Item metadata:
+2025-04-20T18:52:38.933Z [INFO] Created content item with ID: 6805427679f301d16f72c010
+2025-04-20T18:52:38.933Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/19/business/michael-c-wood-dead.html to summary queue
+2025-04-20T18:52:38.933Z [INFO] Summary content length: 178
+2025-04-20T18:52:38.934Z [INFO] Summary job added with ID: 28
+2025-04-20T18:52:38.934Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/meta-antitrust-trial-sheryl-sandberg.html
+2025-04-20T18:52:39.057Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/meta-antitrust-trial-sheryl-sandberg.html
+2025-04-20T18:52:39.057Z [INFO] Item metadata:
+2025-04-20T18:52:39.183Z [INFO] Created content item with ID: 6805427779f301d16f72c013
+2025-04-20T18:52:39.183Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/meta-antitrust-trial-sheryl-sandberg.html to summary queue
+2025-04-20T18:52:39.183Z [INFO] Summary content length: 281
+2025-04-20T18:52:39.185Z [INFO] Summary job added with ID: 29
+2025-04-20T18:52:39.185Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/realestate/mark-zuckerberg-washington-dc-mansion.html
+2025-04-20T18:52:39.309Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/realestate/mark-zuckerberg-washington-dc-mansion.html
+2025-04-20T18:52:39.309Z [INFO] Item metadata:
+2025-04-20T18:52:39.418Z [INFO] Created content item with ID: 6805427779f301d16f72c016
+2025-04-20T18:52:39.418Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/realestate/mark-zuckerberg-washington-dc-mansion.html to summary queue
+2025-04-20T18:52:39.418Z [INFO] Summary content length: 191
+2025-04-20T18:52:39.419Z [INFO] Summary job added with ID: 30
+2025-04-20T18:52:39.419Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/openai-reasoning-models-o3-o4-mini.html
+2025-04-20T18:52:39.541Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/openai-reasoning-models-o3-o4-mini.html
+2025-04-20T18:52:39.541Z [INFO] Item metadata:
+2025-04-20T18:52:39.640Z [INFO] Created content item with ID: 6805427779f301d16f72c019
+2025-04-20T18:52:39.640Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/openai-reasoning-models-o3-o4-mini.html to summary queue
+2025-04-20T18:52:39.640Z [INFO] Summary content length: 156
+2025-04-20T18:52:39.641Z [INFO] Summary job added with ID: 31
+2025-04-20T18:52:39.641Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/nvidia-deepseek-china-ai-trump.html
+2025-04-20T18:52:39.730Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/nvidia-deepseek-china-ai-trump.html
+2025-04-20T18:52:39.730Z [INFO] Item metadata:
+2025-04-20T18:52:39.813Z [INFO] OpenAI Response:
+2025-04-20T18:52:39.813Z [INFO] Caching summary in Redis
+2025-04-20T18:52:39.814Z [INFO] Summary cached in Redis
+2025-04-20T18:52:39.814Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:39.814Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:39.839Z [INFO] Created content item with ID: 6805427779f301d16f72c01c
+2025-04-20T18:52:39.839Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/nvidia-deepseek-china-ai-trump.html to summary queue
+2025-04-20T18:52:39.839Z [INFO] Summary content length: 240
+2025-04-20T18:52:39.840Z [INFO] Summary job added with ID: 32
+2025-04-20T18:52:39.840Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/zuckerberg-meta-antitrust-trial.html
+2025-04-20T18:52:39.857Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:39.857Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/ai-chips-china-huawei.html
+2025-04-20T18:52:39.858Z [INFO] Summary job 23 has completed with result:
+2025-04-20T18:52:39.858Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/google-antitrust-losses-history.html
+2025-04-20T18:52:39.858Z [INFO] Content length: 191
+2025-04-20T18:52:39.858Z [INFO] Content: Google Makes History With Rapid-Fire Antitrust Losses
+
+Within a year, two federal judges declared th...
+2025-04-20T18:52:39.858Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:39.858Z [INFO] OpenAI service initialized
+2025-04-20T18:52:39.858Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:39.858Z [INFO] Summary job 24 has started processing
+2025-04-20T18:52:39.877Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/zuckerberg-meta-antitrust-trial.html
+2025-04-20T18:52:39.877Z [INFO] Item metadata:
+2025-04-20T18:52:39.920Z [INFO] Created content item with ID: 6805427779f301d16f72c020
+2025-04-20T18:52:39.920Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/zuckerberg-meta-antitrust-trial.html to summary queue
+2025-04-20T18:52:39.920Z [INFO] Summary content length: 210
+2025-04-20T18:52:39.920Z [INFO] Summary job added with ID: 33
+2025-04-20T18:52:39.920Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/amazon-sellers-china-tariffs.html
+2025-04-20T18:52:39.957Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/amazon-sellers-china-tariffs.html
+2025-04-20T18:52:39.957Z [INFO] Item metadata:
+2025-04-20T18:52:39.999Z [INFO] Created content item with ID: 6805427779f301d16f72c023
+2025-04-20T18:52:39.999Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/amazon-sellers-china-tariffs.html to summary queue
+2025-04-20T18:52:39.999Z [INFO] Summary content length: 206
+2025-04-20T18:52:40.000Z [INFO] Summary job added with ID: 34
+2025-04-20T18:52:40.000Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/nvidia-h20-chip-china-restrictions.html
+2025-04-20T18:52:40.037Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/nvidia-h20-chip-china-restrictions.html
+2025-04-20T18:52:40.037Z [INFO] Item metadata:
+2025-04-20T18:52:40.077Z [INFO] Created content item with ID: 6805427879f301d16f72c026
+2025-04-20T18:52:40.077Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/nvidia-h20-chip-china-restrictions.html to summary queue
+2025-04-20T18:52:40.077Z [INFO] Summary content length: 253
+2025-04-20T18:52:40.078Z [INFO] Summary job added with ID: 35
+2025-04-20T18:52:40.078Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/meta-antitrust-trial-mark-zuckerberg.html
+2025-04-20T18:52:40.117Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/meta-antitrust-trial-mark-zuckerberg.html
+2025-04-20T18:52:40.117Z [INFO] Item metadata:
+2025-04-20T18:52:40.156Z [INFO] Created content item with ID: 6805427879f301d16f72c029
+2025-04-20T18:52:40.156Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/meta-antitrust-trial-mark-zuckerberg.html to summary queue
+2025-04-20T18:52:40.156Z [INFO] Summary content length: 252
+2025-04-20T18:52:40.157Z [INFO] Summary job added with ID: 36
+2025-04-20T18:52:40.157Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/antitrust-structure-deals-challenge.html
+2025-04-20T18:52:40.197Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/antitrust-structure-deals-challenge.html
+2025-04-20T18:52:40.198Z [INFO] Item metadata:
+2025-04-20T18:52:40.239Z [INFO] Created content item with ID: 6805427879f301d16f72c02c
+2025-04-20T18:52:40.239Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/antitrust-structure-deals-challenge.html to summary queue
+2025-04-20T18:52:40.239Z [INFO] Summary content length: 207
+2025-04-20T18:52:40.240Z [INFO] Summary job added with ID: 37
+2025-04-20T18:52:40.240Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/personaltech/trump-tariffs-iphone-cost.html
+2025-04-20T18:52:40.279Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/personaltech/trump-tariffs-iphone-cost.html
+2025-04-20T18:52:40.279Z [INFO] Item metadata:
+2025-04-20T18:52:40.323Z [INFO] Created content item with ID: 6805427879f301d16f72c02f
+2025-04-20T18:52:40.323Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/personaltech/trump-tariffs-iphone-cost.html to summary queue
+2025-04-20T18:52:40.323Z [INFO] Summary content length: 207
+2025-04-20T18:52:40.324Z [INFO] Summary job added with ID: 38
+2025-04-20T18:52:40.324Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/magazine/seasteading-libertarian-ocean-living.html
+2025-04-20T18:52:40.363Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/magazine/seasteading-libertarian-ocean-living.html
+2025-04-20T18:52:40.364Z [INFO] Item metadata:
+2025-04-20T18:52:40.415Z [INFO] Created content item with ID: 6805427879f301d16f72c032
+2025-04-20T18:52:40.415Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/magazine/seasteading-libertarian-ocean-living.html to summary queue
+2025-04-20T18:52:40.415Z [INFO] Summary content length: 171
+2025-04-20T18:52:40.415Z [INFO] Summary job added with ID: 39
+2025-04-20T18:52:40.415Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/rare-earth-metals-china-exports.html
+2025-04-20T18:52:40.454Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/rare-earth-metals-china-exports.html
+2025-04-20T18:52:40.454Z [INFO] Item metadata:
+2025-04-20T18:52:40.494Z [INFO] Created content item with ID: 6805427879f301d16f72c035
+2025-04-20T18:52:40.494Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/rare-earth-metals-china-exports.html to summary queue
+2025-04-20T18:52:40.494Z [INFO] Summary content length: 193
+2025-04-20T18:52:40.494Z [INFO] Summary job added with ID: 40
+2025-04-20T18:52:40.495Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/mark-zuckerberg-facebook-instagram-whatsapp.html
+2025-04-20T18:52:40.536Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/mark-zuckerberg-facebook-instagram-whatsapp.html
+2025-04-20T18:52:40.536Z [INFO] Item metadata:
+2025-04-20T18:52:40.578Z [INFO] Created content item with ID: 6805427879f301d16f72c038
+2025-04-20T18:52:40.578Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/mark-zuckerberg-facebook-instagram-whatsapp.html to summary queue
+2025-04-20T18:52:40.578Z [INFO] Summary content length: 242
+2025-04-20T18:52:40.579Z [INFO] Summary job added with ID: 41
+2025-04-20T18:52:40.579Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/meta-antitrust-trial-ftc.html
+2025-04-20T18:52:40.616Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/meta-antitrust-trial-ftc.html
+2025-04-20T18:52:40.616Z [INFO] Item metadata:
+2025-04-20T18:52:40.659Z [INFO] Created content item with ID: 6805427879f301d16f72c03b
+2025-04-20T18:52:40.659Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/meta-antitrust-trial-ftc.html to summary queue
+2025-04-20T18:52:40.659Z [INFO] Summary content length: 248
+2025-04-20T18:52:40.660Z [INFO] Summary job added with ID: 42
+2025-04-20T18:52:40.660Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/business/energy-environment/trump-coal-power-plants.html
+2025-04-20T18:52:40.699Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/business/energy-environment/trump-coal-power-plants.html
+2025-04-20T18:52:40.699Z [INFO] Item metadata:
+2025-04-20T18:52:40.741Z [INFO] Created content item with ID: 6805427879f301d16f72c03e
+2025-04-20T18:52:40.741Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/business/energy-environment/trump-coal-power-plants.html to summary queue
+2025-04-20T18:52:40.741Z [INFO] Summary content length: 228
+2025-04-20T18:52:40.742Z [INFO] Summary job added with ID: 43
+2025-04-20T18:52:40.742Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/zuckerberg-testifies-meta-trial-ftc.html
+2025-04-20T18:52:40.778Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/zuckerberg-testifies-meta-trial-ftc.html
+2025-04-20T18:52:40.778Z [INFO] Item metadata:
+2025-04-20T18:52:40.818Z [INFO] Created content item with ID: 6805427879f301d16f72c041
+2025-04-20T18:52:40.818Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/zuckerberg-testifies-meta-trial-ftc.html to summary queue
+2025-04-20T18:52:40.818Z [INFO] Summary content length: 241
+2025-04-20T18:52:40.818Z [INFO] Summary job added with ID: 44
+2025-04-20T18:52:40.818Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/cia-officer-europe-military-spending.html
+2025-04-20T18:52:40.858Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/cia-officer-europe-military-spending.html
+2025-04-20T18:52:40.858Z [INFO] Item metadata:
+2025-04-20T18:52:40.901Z [INFO] Created content item with ID: 6805427879f301d16f72c044
+2025-04-20T18:52:40.901Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/cia-officer-europe-military-spending.html to summary queue
+2025-04-20T18:52:40.901Z [INFO] Summary content length: 268
+2025-04-20T18:52:40.901Z [INFO] Summary job added with ID: 45
+2025-04-20T18:52:40.901Z [INFO] Processing item 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/trump-immigration-tech-geo-group.html
+2025-04-20T18:52:40.938Z [INFO] Creating new content item: 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/trump-immigration-tech-geo-group.html
+2025-04-20T18:52:40.938Z [INFO] Item metadata:
+2025-04-20T18:52:40.992Z [INFO] Created content item with ID: 6805427879f301d16f72c047
+2025-04-20T18:52:40.992Z [INFO] Adding content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/trump-immigration-tech-geo-group.html to summary queue
+2025-04-20T18:52:40.992Z [INFO] Summary content length: 263
+2025-04-20T18:52:40.993Z [INFO] Summary job added with ID: 46
+2025-04-20T18:52:40.993Z [INFO] Successfully processed all items for feed 68054223df62b90069f467f7
+2025-04-20T18:52:42.123Z [INFO] OpenAI Response:
+2025-04-20T18:52:42.123Z [INFO] Caching summary in Redis
+2025-04-20T18:52:42.123Z [INFO] Summary cached in Redis
+2025-04-20T18:52:42.123Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:42.123Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:42.165Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:42.165Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/technology/google-antitrust-losses-history.html
+2025-04-20T18:52:42.166Z [INFO] Summary job 24 has completed with result:
+2025-04-20T18:52:42.166Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/google-ad-tech-antitrust-ruling.html
+2025-04-20T18:52:42.166Z [INFO] Content length: 184
+2025-04-20T18:52:42.166Z [INFO] Content: Google Is Illegally Monopolizing Online Advertising Tech, Judge Rules
+
+It was the second time in a y...
+2025-04-20T18:52:42.166Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:42.166Z [INFO] OpenAI service initialized
+2025-04-20T18:52:42.166Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:42.167Z [INFO] Summary job 25 has started processing
+2025-04-20T18:52:44.025Z [INFO] OpenAI Response:
+2025-04-20T18:52:44.025Z [INFO] Caching summary in Redis
+2025-04-20T18:52:44.026Z [INFO] Summary cached in Redis
+2025-04-20T18:52:44.026Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:44.026Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:44.068Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:44.068Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/google-ad-tech-antitrust-ruling.html
+2025-04-20T18:52:44.069Z [INFO] Summary job 25 has completed with result:
+2025-04-20T18:52:44.069Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/podcasts/meta-on-trial-is-ai-a-normal-technology-hatgpt.html
+2025-04-20T18:52:44.069Z [INFO] Content length: 174
+2025-04-20T18:52:44.069Z [INFO] Content: Meta on Trial + Is A.I. a ‘Normal’ Technology? + HatGPT
+
+“The market for social networks, or even wh...
+2025-04-20T18:52:44.069Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:44.069Z [INFO] OpenAI service initialized
+2025-04-20T18:52:44.069Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:44.069Z [INFO] Summary job 26 has started processing
+2025-04-20T18:52:45.847Z [INFO] OpenAI Response:
+2025-04-20T18:52:45.847Z [INFO] Caching summary in Redis
+2025-04-20T18:52:45.848Z [INFO] Summary cached in Redis
+2025-04-20T18:52:45.848Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:45.848Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:45.892Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:45.892Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/18/podcasts/meta-on-trial-is-ai-a-normal-technology-hatgpt.html
+2025-04-20T18:52:45.893Z [INFO] Summary job 26 has completed with result:
+2025-04-20T18:52:45.893Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/20/arts/television/black-mirror-netflix-reality.html
+2025-04-20T18:52:45.893Z [INFO] Content length: 189
+2025-04-20T18:52:45.893Z [INFO] Content: ‘Black Mirror’ Showed Us a Future. Some of It Is Here Now.
+
+The long-running tech drama always felt ...
+2025-04-20T18:52:45.893Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:45.893Z [INFO] OpenAI service initialized
+2025-04-20T18:52:45.893Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:45.893Z [INFO] Summary job 27 has started processing
+2025-04-20T18:52:47.883Z [INFO] OpenAI Response:
+2025-04-20T18:52:47.883Z [INFO] Caching summary in Redis
+2025-04-20T18:52:47.884Z [INFO] Summary cached in Redis
+2025-04-20T18:52:47.884Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:47.884Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:47.927Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:47.927Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/20/arts/television/black-mirror-netflix-reality.html
+2025-04-20T18:52:47.928Z [INFO] Summary job 27 has completed with result:
+2025-04-20T18:52:47.928Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/19/business/michael-c-wood-dead.html
+2025-04-20T18:52:47.928Z [INFO] Content length: 178
+2025-04-20T18:52:47.928Z [INFO] Content: Mike Wood, Whose LeapFrog Toys Taught a Generation, Dies at 72
+
+His LeapPad tablets, which helped ch...
+2025-04-20T18:52:47.928Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:47.928Z [INFO] OpenAI service initialized
+2025-04-20T18:52:47.928Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:47.928Z [INFO] Summary job 28 has started processing
+2025-04-20T18:52:49.470Z [INFO] OpenAI Response:
+2025-04-20T18:52:49.470Z [INFO] Caching summary in Redis
+2025-04-20T18:52:49.470Z [INFO] Summary cached in Redis
+2025-04-20T18:52:49.470Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:49.470Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:49.510Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:49.510Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/19/business/michael-c-wood-dead.html
+2025-04-20T18:52:49.511Z [INFO] Summary job 28 has completed with result:
+2025-04-20T18:52:49.511Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/meta-antitrust-trial-sheryl-sandberg.html
+2025-04-20T18:52:49.511Z [INFO] Content length: 281
+2025-04-20T18:52:49.511Z [INFO] Content: At Meta Antitrust Trial, Sheryl Sandberg Testifies About Competition and Instagram Deal
+
+In her seco...
+2025-04-20T18:52:49.511Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:49.511Z [INFO] OpenAI service initialized
+2025-04-20T18:52:49.511Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:49.511Z [INFO] Summary job 29 has started processing
+2025-04-20T18:52:51.664Z [INFO] OpenAI Response:
+2025-04-20T18:52:51.664Z [INFO] Caching summary in Redis
+2025-04-20T18:52:51.665Z [INFO] Summary cached in Redis
+2025-04-20T18:52:51.665Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:51.665Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:51.832Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:51.832Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/technology/meta-antitrust-trial-sheryl-sandberg.html
+2025-04-20T18:52:51.833Z [INFO] Summary job 29 has completed with result:
+2025-04-20T18:52:51.834Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/realestate/mark-zuckerberg-washington-dc-mansion.html
+2025-04-20T18:52:51.834Z [INFO] Content length: 191
+2025-04-20T18:52:51.834Z [INFO] Content: What Mark Zuckerberg’s Washington, D.C., Mansion Says About His Ideological Shifts
+
+Mark Zuckerberg’...
+2025-04-20T18:52:51.834Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:51.834Z [INFO] OpenAI service initialized
+2025-04-20T18:52:51.834Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:51.834Z [INFO] Summary job 30 has started processing
+2025-04-20T18:52:54.186Z [INFO] OpenAI Response:
+2025-04-20T18:52:54.186Z [INFO] Caching summary in Redis
+2025-04-20T18:52:54.188Z [INFO] Summary cached in Redis
+2025-04-20T18:52:54.188Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:54.189Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:54.309Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:54.309Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/17/realestate/mark-zuckerberg-washington-dc-mansion.html
+2025-04-20T18:52:54.310Z [INFO] Summary job 30 has completed with result:
+2025-04-20T18:52:54.310Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/openai-reasoning-models-o3-o4-mini.html
+2025-04-20T18:52:54.310Z [INFO] Content length: 156
+2025-04-20T18:52:54.310Z [INFO] Content: OpenAI Unveils New ‘Reasoning’ Models o3 and o4-mini
+
+The company also introduced a new tool that he...
+2025-04-20T18:52:54.310Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:54.310Z [INFO] OpenAI service initialized
+2025-04-20T18:52:54.310Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:54.311Z [INFO] Summary job 31 has started processing
+2025-04-20T18:52:55.632Z [INFO] OpenAI Response:
+2025-04-20T18:52:55.632Z [INFO] Caching summary in Redis
+2025-04-20T18:52:55.633Z [INFO] Summary cached in Redis
+2025-04-20T18:52:55.633Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:55.633Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:55.678Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:55.678Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/openai-reasoning-models-o3-o4-mini.html
+2025-04-20T18:52:55.679Z [INFO] Summary job 31 has completed with result:
+2025-04-20T18:52:55.679Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/nvidia-deepseek-china-ai-trump.html
+2025-04-20T18:52:55.679Z [INFO] Content length: 240
+2025-04-20T18:52:55.679Z [INFO] Content: US Officials Target Nvidia and DeepSeek Amid Fears of China’s A.I. Progress
+
+China’s success in arti...
+2025-04-20T18:52:55.679Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:55.679Z [INFO] OpenAI service initialized
+2025-04-20T18:52:55.679Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:55.679Z [INFO] Summary job 32 has started processing
+2025-04-20T18:52:59.618Z [INFO] OpenAI Response:
+2025-04-20T18:52:59.618Z [INFO] Caching summary in Redis
+2025-04-20T18:52:59.619Z [INFO] Summary cached in Redis
+2025-04-20T18:52:59.619Z [INFO] Updating content item in MongoDB
+2025-04-20T18:52:59.619Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:52:59.659Z [INFO] MongoDB Update Result:
+2025-04-20T18:52:59.659Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/nvidia-deepseek-china-ai-trump.html
+2025-04-20T18:52:59.660Z [INFO] Summary job 32 has completed with result:
+2025-04-20T18:52:59.660Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/zuckerberg-meta-antitrust-trial.html
+2025-04-20T18:52:59.660Z [INFO] Content length: 210
+2025-04-20T18:52:59.660Z [INFO] Content: At Meta Antitrust Trial, Zuckerberg Calls TikTok a Competitive Threat
+
+The former chief operating of...
+2025-04-20T18:52:59.660Z [INFO] Initializing OpenAI service...
+2025-04-20T18:52:59.660Z [INFO] OpenAI service initialized
+2025-04-20T18:52:59.660Z [INFO] Generating summary with OpenAI
+2025-04-20T18:52:59.660Z [INFO] Summary job 33 has started processing
+2025-04-20T18:53:02.209Z [INFO] OpenAI Response:
+2025-04-20T18:53:02.209Z [INFO] Caching summary in Redis
+2025-04-20T18:53:02.210Z [INFO] Summary cached in Redis
+2025-04-20T18:53:02.210Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:02.210Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:02.257Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:02.257Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/zuckerberg-meta-antitrust-trial.html
+2025-04-20T18:53:02.258Z [INFO] Summary job 33 has completed with result:
+2025-04-20T18:53:02.258Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/amazon-sellers-china-tariffs.html
+2025-04-20T18:53:02.258Z [INFO] Content length: 206
+2025-04-20T18:53:02.258Z [INFO] Content: Amazon Sellers Struggle with Trump’s Tariff Plans
+
+An Illinois couple who sell party supplies on Ama...
+2025-04-20T18:53:02.259Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:02.259Z [INFO] OpenAI service initialized
+2025-04-20T18:53:02.259Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:02.259Z [INFO] Summary job 34 has started processing
+2025-04-20T18:53:03.568Z [INFO] OpenAI Response:
+2025-04-20T18:53:03.568Z [INFO] Caching summary in Redis
+2025-04-20T18:53:03.568Z [INFO] Summary cached in Redis
+2025-04-20T18:53:03.568Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:03.568Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:03.609Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:03.609Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/16/technology/amazon-sellers-china-tariffs.html
+2025-04-20T18:53:03.610Z [INFO] Summary job 34 has completed with result:
+2025-04-20T18:53:03.610Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/nvidia-h20-chip-china-restrictions.html
+2025-04-20T18:53:03.610Z [INFO] Content length: 253
+2025-04-20T18:53:03.610Z [INFO] Content: Nvidia Says U.S. Will Restrict Sales of More of Its A.I. Chips to China
+
+The restrictions are the fi...
+2025-04-20T18:53:03.610Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:03.610Z [INFO] OpenAI service initialized
+2025-04-20T18:53:03.610Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:03.610Z [INFO] Summary job 35 has started processing
+2025-04-20T18:53:05.921Z [INFO] OpenAI Response:
+2025-04-20T18:53:05.921Z [INFO] Caching summary in Redis
+2025-04-20T18:53:05.921Z [INFO] Summary cached in Redis
+2025-04-20T18:53:05.921Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:05.921Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:05.966Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:05.966Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/nvidia-h20-chip-china-restrictions.html
+2025-04-20T18:53:05.969Z [INFO] Summary job 35 has completed with result:
+2025-04-20T18:53:05.969Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/meta-antitrust-trial-mark-zuckerberg.html
+2025-04-20T18:53:05.969Z [INFO] Content length: 252
+2025-04-20T18:53:05.969Z [INFO] Content: At Trial, Mark Zuckerberg Avoids Explaining Takeovers of Instagram and WhatsApp
+
+The Meta chief exec...
+2025-04-20T18:53:05.969Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:05.969Z [INFO] OpenAI service initialized
+2025-04-20T18:53:05.969Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:05.969Z [INFO] Summary job 36 has started processing
+2025-04-20T18:53:07.525Z [INFO] OpenAI Response:
+2025-04-20T18:53:07.525Z [INFO] Caching summary in Redis
+2025-04-20T18:53:07.525Z [INFO] Summary cached in Redis
+2025-04-20T18:53:07.525Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:07.525Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:07.775Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:07.775Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/meta-antitrust-trial-mark-zuckerberg.html
+2025-04-20T18:53:07.775Z [INFO] Summary job 36 has completed with result:
+2025-04-20T18:53:07.775Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/antitrust-structure-deals-challenge.html
+2025-04-20T18:53:07.775Z [INFO] Content length: 207
+2025-04-20T18:53:07.775Z [INFO] Content: Why Antitrust Breakups of Google and Meta Could Be Difficult
+
+For the first time since the late 1990...
+2025-04-20T18:53:07.775Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:07.775Z [INFO] OpenAI service initialized
+2025-04-20T18:53:07.775Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:07.776Z [INFO] Summary job 37 has started processing
+2025-04-20T18:53:10.483Z [INFO] OpenAI Response:
+2025-04-20T18:53:10.483Z [INFO] Caching summary in Redis
+2025-04-20T18:53:10.484Z [INFO] Summary cached in Redis
+2025-04-20T18:53:10.484Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:10.484Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:10.551Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:10.551Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/antitrust-structure-deals-challenge.html
+2025-04-20T18:53:10.553Z [INFO] Summary job 37 has completed with result:
+2025-04-20T18:53:10.553Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/personaltech/trump-tariffs-iphone-cost.html
+2025-04-20T18:53:10.553Z [INFO] Content length: 207
+2025-04-20T18:53:10.553Z [INFO] Content: Trump Tariffs Could Raise iPhone Prices, But Affordable Options Remain
+
+Even if gadget prices surge,...
+2025-04-20T18:53:10.553Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:10.553Z [INFO] OpenAI service initialized
+2025-04-20T18:53:10.553Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:10.553Z [INFO] Summary job 38 has started processing
+2025-04-20T18:53:12.024Z [INFO] OpenAI Response:
+2025-04-20T18:53:12.024Z [INFO] Caching summary in Redis
+2025-04-20T18:53:12.025Z [INFO] Summary cached in Redis
+2025-04-20T18:53:12.025Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:12.025Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:12.067Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:12.067Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/personaltech/trump-tariffs-iphone-cost.html
+2025-04-20T18:53:12.067Z [INFO] Summary job 38 has completed with result:
+2025-04-20T18:53:12.068Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/magazine/seasteading-libertarian-ocean-living.html
+2025-04-20T18:53:12.068Z [INFO] Content length: 171
+2025-04-20T18:53:12.068Z [INFO] Content: The Techno-Utopian Seasteaders Who Want to Colonize the Ocean
+
+Libertarians have long looked at ocea...
+2025-04-20T18:53:12.068Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:12.068Z [INFO] OpenAI service initialized
+2025-04-20T18:53:12.068Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:12.068Z [INFO] Summary job 39 has started processing
+2025-04-20T18:53:15.700Z [INFO] OpenAI Response:
+2025-04-20T18:53:15.700Z [INFO] Caching summary in Redis
+2025-04-20T18:53:15.701Z [INFO] Summary cached in Redis
+2025-04-20T18:53:15.701Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:15.701Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:15.742Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:15.742Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/magazine/seasteading-libertarian-ocean-living.html
+2025-04-20T18:53:15.744Z [INFO] Summary job 39 has completed with result:
+2025-04-20T18:53:15.744Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/rare-earth-metals-china-exports.html
+2025-04-20T18:53:15.744Z [INFO] Content length: 193
+2025-04-20T18:53:15.744Z [INFO] Content: What Are Rare Earth Metals, the Exports Halted by China?
+
+China’s new restrictions on exports of the...
+2025-04-20T18:53:15.744Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:15.744Z [INFO] OpenAI service initialized
+2025-04-20T18:53:15.744Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:15.744Z [INFO] Summary job 40 has started processing
+2025-04-20T18:53:18.638Z [INFO] OpenAI Response:
+2025-04-20T18:53:18.638Z [INFO] Caching summary in Redis
+2025-04-20T18:53:18.638Z [INFO] Summary cached in Redis
+2025-04-20T18:53:18.638Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:18.638Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:18.684Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:18.684Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/15/technology/rare-earth-metals-china-exports.html
+2025-04-20T18:53:18.685Z [INFO] Summary job 40 has completed with result:
+2025-04-20T18:53:18.685Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/mark-zuckerberg-facebook-instagram-whatsapp.html
+2025-04-20T18:53:18.685Z [INFO] Content length: 242
+2025-04-20T18:53:18.685Z [INFO] Content: What If Mark Zuckerberg Had Not Bought Instagram and WhatsApp?
+
+Meta’s antitrust trial, in which the...
+2025-04-20T18:53:18.685Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:18.685Z [INFO] OpenAI service initialized
+2025-04-20T18:53:18.685Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:18.685Z [INFO] Summary job 41 has started processing
+2025-04-20T18:53:21.618Z [INFO] OpenAI Response:
+2025-04-20T18:53:21.618Z [INFO] Caching summary in Redis
+2025-04-20T18:53:21.618Z [INFO] Summary cached in Redis
+2025-04-20T18:53:21.618Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:21.618Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:21.661Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:21.661Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/mark-zuckerberg-facebook-instagram-whatsapp.html
+2025-04-20T18:53:21.662Z [INFO] Summary job 41 has completed with result:
+2025-04-20T18:53:21.662Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/meta-antitrust-trial-ftc.html
+2025-04-20T18:53:21.662Z [INFO] Content length: 248
+2025-04-20T18:53:21.662Z [INFO] Content: Meta’s Antitrust Trial Begins as FTC Argues Company Built Social Media Monopoly
+
+Mr. Zuckerberg went...
+2025-04-20T18:53:21.662Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:21.662Z [INFO] OpenAI service initialized
+2025-04-20T18:53:21.662Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:21.662Z [INFO] Summary job 42 has started processing
+2025-04-20T18:53:23.887Z [INFO] OpenAI Response:
+2025-04-20T18:53:23.887Z [INFO] Caching summary in Redis
+2025-04-20T18:53:23.887Z [INFO] Summary cached in Redis
+2025-04-20T18:53:23.887Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:23.887Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:24.059Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:24.059Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/meta-antitrust-trial-ftc.html
+2025-04-20T18:53:24.060Z [INFO] Summary job 42 has completed with result:
+2025-04-20T18:53:24.060Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/business/energy-environment/trump-coal-power-plants.html
+2025-04-20T18:53:24.060Z [INFO] Content length: 228
+2025-04-20T18:53:24.060Z [INFO] Content: Trump Wants to Reverse Coal’s Long Decline. It Won’t be Easy.
+
+Coal has been displaced by cheap and ...
+2025-04-20T18:53:24.060Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:24.060Z [INFO] OpenAI service initialized
+2025-04-20T18:53:24.060Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:24.060Z [INFO] Summary job 43 has started processing
+2025-04-20T18:53:27.725Z [INFO] OpenAI Response:
+2025-04-20T18:53:27.725Z [INFO] Caching summary in Redis
+2025-04-20T18:53:27.726Z [INFO] Summary cached in Redis
+2025-04-20T18:53:27.726Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:27.726Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:27.772Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:27.772Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/business/energy-environment/trump-coal-power-plants.html
+2025-04-20T18:53:27.772Z [INFO] Summary job 43 has completed with result:
+2025-04-20T18:53:27.772Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/zuckerberg-testifies-meta-trial-ftc.html
+2025-04-20T18:53:27.772Z [INFO] Content length: 241
+2025-04-20T18:53:27.772Z [INFO] Content: Meta’s Antitrust Trial to Put Mark Zuckerberg, Serial Witness, to the Test Again
+
+Meta’s chief has g...
+2025-04-20T18:53:27.772Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:27.772Z [INFO] OpenAI service initialized
+2025-04-20T18:53:27.772Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:27.772Z [INFO] Summary job 44 has started processing
+2025-04-20T18:53:29.393Z [INFO] OpenAI Response:
+2025-04-20T18:53:29.393Z [INFO] Caching summary in Redis
+2025-04-20T18:53:29.394Z [INFO] Summary cached in Redis
+2025-04-20T18:53:29.394Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:29.394Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:29.436Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:29.436Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/zuckerberg-testifies-meta-trial-ftc.html
+2025-04-20T18:53:29.437Z [INFO] Summary job 44 has completed with result:
+2025-04-20T18:53:29.437Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/cia-officer-europe-military-spending.html
+2025-04-20T18:53:29.438Z [INFO] Content length: 268
+2025-04-20T18:53:29.438Z [INFO] Content: The Former C.I.A. Officer Capitalizing On Europe’s Military Spending Boom
+
+Eric Slesinger made a car...
+2025-04-20T18:53:29.438Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:29.438Z [INFO] OpenAI service initialized
+2025-04-20T18:53:29.438Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:29.438Z [INFO] Summary job 45 has started processing
+2025-04-20T18:53:31.629Z [INFO] OpenAI Response:
+2025-04-20T18:53:31.629Z [INFO] Caching summary in Redis
+2025-04-20T18:53:31.632Z [INFO] Summary cached in Redis
+2025-04-20T18:53:31.632Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:31.632Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:31.676Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:31.676Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/cia-officer-europe-military-spending.html
+2025-04-20T18:53:31.676Z [INFO] Summary job 45 has completed with result:
+2025-04-20T18:53:31.676Z [INFO] Processing summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/trump-immigration-tech-geo-group.html
+2025-04-20T18:53:31.676Z [INFO] Content length: 263
+2025-04-20T18:53:31.676Z [INFO] Content: How Geo Group’s Surveillance Tech Is Aiding Trump’s Immigration Agenda
+
+Geo Group, a private prison ...
+2025-04-20T18:53:31.676Z [INFO] Initializing OpenAI service...
+2025-04-20T18:53:31.676Z [INFO] OpenAI service initialized
+2025-04-20T18:53:31.676Z [INFO] Generating summary with OpenAI
+2025-04-20T18:53:31.677Z [INFO] Summary job 46 has started processing
+2025-04-20T18:53:33.148Z [INFO] OpenAI Response:
+2025-04-20T18:53:33.148Z [INFO] Caching summary in Redis
+2025-04-20T18:53:33.149Z [INFO] Summary cached in Redis
+2025-04-20T18:53:33.149Z [INFO] Updating content item in MongoDB
+2025-04-20T18:53:33.149Z [INFO] Searching for content item with sourceId:
+2025-04-20T18:53:33.198Z [INFO] MongoDB Update Result:
+2025-04-20T18:53:33.198Z [INFO] Successfully processed summary for content 68054223df62b90069f467f7:https://www.nytimes.com/2025/04/14/technology/trump-immigration-tech-geo-group.html
+2025-04-20T18:53:33.200Z [INFO] Summary job 46 has completed with result:
